@@ -1,0 +1,20 @@
+{
+  "name": "@openagenet/oan-identity-lifecycle-evaluation",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24 <25"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --test dist/tests/*.test.js",
+    "experiment": "node dist/src/cli.js",
+    "harness": "node dist/src/harness.js",
+    "suite": "node dist/src/suite.js"
+  },
+  "devDependencies": {
+    "typescript": "6.0.3",
+    "@types/node": "26.0.0"
+  }
+}

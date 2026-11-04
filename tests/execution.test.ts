@@ -1,0 +1,10 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {createServer} from 'node:http';
+import {pointer,validate} from '../src/config.js';
+import {request} from '../src/transport.js';
+import type {Experiment} from '../src/contracts.js';
+const config=():Experiment=>({schemaVersion:1,runId:'test',module:'query',isolatedExperiment:true,endpoints:{d:'http://127.0.0.1:1'},timeoutMs:50,concurrency:1,warmup:0,repetitions:1,cases:[{id:'q',endpoint:'d',method:'GET',path:'/health',expectedStatus:200,scope:'end-to-end'}]});
+test('rejects duplicate cases and absolute paths',()=>{const c=config();c.cases.push(c.cases[0]);assert.throws(()=>validate(c));const d=config();d.cases[0].path='//evil';assert.throws(()=>validate(d));});
+test('JSON pointer handles escaping',()=>assert.equal(pointer({'a/b':{'~':2}},'/a~1b/~0'),2));
+test('actual HTTP assertions and failed expectations',async()=>{const server=createServer((_q,r)=>{r.setHeader('content-type','application/json');r.end('{"ok":true}');});await new Promise<void>(resolve=>server.listen(0,'127.0.0.1',resolve));try{const c=config();const address=server.address();assert.ok(address&&typeof address==='object');c.endpoints.d=`http://127.0.0.1:${address.port}`;c.timeoutMs=1000;c.cases[0].expected={pointer:'/ok',equals:true};assert.equal((await request(c,c.cases[0],0)).actual,'matched');c.cases[0].expected.equals=false;assert.equal((await request(c,c.cases[0],0)).actual,'mismatch');}finally{server.close();}});

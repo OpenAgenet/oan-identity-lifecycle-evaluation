@@ -1,0 +1,9 @@
+runs/
+private/
+.local/
+__pycache__/
+*.pyc
+node_modules/
+target/
+.env
+dist/

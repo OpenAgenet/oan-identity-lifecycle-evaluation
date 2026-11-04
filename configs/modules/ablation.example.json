@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "runId": "ablation-pilot",
+  "module": "ablation",
+  "isolatedExperiment": true,
+  "endpoints": {
+    "service": "http://127.0.0.1:18103"
+  },
+  "timeoutMs": 10000,
+  "concurrency": 1,
+  "warmup": 0,
+  "repetitions": 1,
+  "cases": [
+    {
+      "id": "replace-with-real-case",
+      "endpoint": "service",
+      "method": "POST",
+      "path": "/REPLACE_WITH_AUDITED_INTERFACE",
+      "body": {},
+      "expectedStatus": 200,
+      "expected": {
+        "pointer": "/REPLACE_WITH_EXPECTED_FIELD",
+        "equals": "REPLACE"
+      },
+      "scope": "service-ablation"
+    }
+  ],
+  "ablation": {
+    "variant": "REPLACE_VARIANT",
+    "buildManifest": ".local/ablation-build.json",
+    "mechanisms": [
+      "root-upstream-signature-binding",
+      "discovery-authorization-filter"
+    ],
+    "runner": "oan-system-test-ops harness",
+    "runtimeDependency": false,
+    "serviceOwners": {
+      "root-upstream-signature-binding": [
+        "oan-root-services",
+        "oan-protocol-common"
+      ],
+      "discovery-authorization-filter": [
+        "oan-discovery-node"
+      ]
+    }
+  }
+}

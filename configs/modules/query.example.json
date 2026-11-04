@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "runId": "query-pilot",
+  "module": "query",
+  "isolatedExperiment": true,
+  "endpoints": {
+    "service": "http://127.0.0.1:18103"
+  },
+  "timeoutMs": 10000,
+  "concurrency": 1,
+  "warmup": 0,
+  "repetitions": 1,
+  "cases": [
+    {
+      "id": "replace-with-real-case",
+      "endpoint": "service",
+      "method": "POST",
+      "path": "/discovery/resources/query",
+      "body": {
+        "query": "REPLACE_WITH_RESOURCE_DID",
+        "limit": 20
+      },
+      "expectedStatus": 200,
+      "expected": {
+        "pointer": "/REPLACE_WITH_EXPECTED_FIELD",
+        "equals": "REPLACE"
+      },
+      "scope": "end-to-end"
+    }
+  ]
+}
