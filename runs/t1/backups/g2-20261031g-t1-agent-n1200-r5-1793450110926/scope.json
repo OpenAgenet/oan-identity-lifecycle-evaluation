@@ -1,0 +1,13 @@
+{
+  "source": "g2-20261031g-t1-agent-n1200-r5",
+  "createdAt": "2026-10-31T12:35:10.941Z",
+  "files": 6,
+  "scope": "local-redundant-copy-not-offsite-backup",
+  "excludes": [
+    "private-stage",
+    "deployment",
+    "identities",
+    "configs",
+    "database"
+  ]
+}

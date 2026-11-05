@@ -1,0 +1,486 @@
+{
+  "seed": 20261028,
+  "state": "planned-not-measured",
+  "runs": [
+    {
+      "kind": "agent",
+      "total": 2000,
+      "round": 4,
+      "allocation": [
+        667,
+        667,
+        666
+      ],
+      "typeCounts": {
+        "agent_service": 2000
+      },
+      "order": 1,
+      "id": "t1-agent-n2000-r4"
+    },
+    {
+      "kind": "agent",
+      "total": 300,
+      "round": 4,
+      "allocation": [
+        100,
+        100,
+        100
+      ],
+      "typeCounts": {
+        "agent_service": 300
+      },
+      "order": 2,
+      "id": "t1-agent-n300-r4"
+    },
+    {
+      "kind": "agent",
+      "total": 1200,
+      "round": 3,
+      "allocation": [
+        400,
+        400,
+        400
+      ],
+      "typeCounts": {
+        "agent_service": 1200
+      },
+      "order": 3,
+      "id": "t1-agent-n1200-r3"
+    },
+    {
+      "kind": "agent",
+      "total": 2000,
+      "round": 3,
+      "allocation": [
+        667,
+        667,
+        666
+      ],
+      "typeCounts": {
+        "agent_service": 2000
+      },
+      "order": 4,
+      "id": "t1-agent-n2000-r3"
+    },
+    {
+      "kind": "agent",
+      "total": 30,
+      "round": 1,
+      "allocation": [
+        10,
+        10,
+        10
+      ],
+      "typeCounts": {
+        "agent_service": 30
+      },
+      "order": 5,
+      "id": "t1-agent-n30-r1"
+    },
+    {
+      "kind": "mixed",
+      "total": 100,
+      "round": 4,
+      "allocation": [
+        34,
+        33,
+        33
+      ],
+      "typeCounts": {
+        "agent_service": 25,
+        "mcp_server": 25,
+        "tool_api": 25,
+        "skill": 25
+      },
+      "order": 6,
+      "id": "t1-mixed-n100-r4"
+    },
+    {
+      "kind": "agent",
+      "total": 1200,
+      "round": 5,
+      "allocation": [
+        400,
+        400,
+        400
+      ],
+      "typeCounts": {
+        "agent_service": 1200
+      },
+      "order": 7,
+      "id": "t1-agent-n1200-r5"
+    },
+    {
+      "kind": "mixed",
+      "total": 1000,
+      "round": 2,
+      "allocation": [
+        334,
+        333,
+        333
+      ],
+      "typeCounts": {
+        "agent_service": 250,
+        "mcp_server": 250,
+        "tool_api": 250,
+        "skill": 250
+      },
+      "order": 8,
+      "id": "t1-mixed-n1000-r2"
+    },
+    {
+      "kind": "agent",
+      "total": 30,
+      "round": 3,
+      "allocation": [
+        10,
+        10,
+        10
+      ],
+      "typeCounts": {
+        "agent_service": 30
+      },
+      "order": 9,
+      "id": "t1-agent-n30-r3"
+    },
+    {
+      "kind": "agent",
+      "total": 1200,
+      "round": 4,
+      "allocation": [
+        400,
+        400,
+        400
+      ],
+      "typeCounts": {
+        "agent_service": 1200
+      },
+      "order": 10,
+      "id": "t1-agent-n1200-r4"
+    },
+    {
+      "kind": "agent",
+      "total": 2000,
+      "round": 5,
+      "allocation": [
+        667,
+        667,
+        666
+      ],
+      "typeCounts": {
+        "agent_service": 2000
+      },
+      "order": 11,
+      "id": "t1-agent-n2000-r5"
+    },
+    {
+      "kind": "agent",
+      "total": 30,
+      "round": 4,
+      "allocation": [
+        10,
+        10,
+        10
+      ],
+      "typeCounts": {
+        "agent_service": 30
+      },
+      "order": 12,
+      "id": "t1-agent-n30-r4"
+    },
+    {
+      "kind": "agent",
+      "total": 2000,
+      "round": 1,
+      "allocation": [
+        667,
+        667,
+        666
+      ],
+      "typeCounts": {
+        "agent_service": 2000
+      },
+      "order": 13,
+      "id": "t1-agent-n2000-r1"
+    },
+    {
+      "kind": "mixed",
+      "total": 100,
+      "round": 3,
+      "allocation": [
+        34,
+        33,
+        33
+      ],
+      "typeCounts": {
+        "agent_service": 25,
+        "mcp_server": 25,
+        "tool_api": 25,
+        "skill": 25
+      },
+      "order": 14,
+      "id": "t1-mixed-n100-r3"
+    },
+    {
+      "kind": "mixed",
+      "total": 1000,
+      "round": 5,
+      "allocation": [
+        334,
+        333,
+        333
+      ],
+      "typeCounts": {
+        "agent_service": 250,
+        "mcp_server": 250,
+        "tool_api": 250,
+        "skill": 250
+      },
+      "order": 15,
+      "id": "t1-mixed-n1000-r5"
+    },
+    {
+      "kind": "mixed",
+      "total": 100,
+      "round": 1,
+      "allocation": [
+        34,
+        33,
+        33
+      ],
+      "typeCounts": {
+        "agent_service": 25,
+        "mcp_server": 25,
+        "tool_api": 25,
+        "skill": 25
+      },
+      "order": 16,
+      "id": "t1-mixed-n100-r1"
+    },
+    {
+      "kind": "agent",
+      "total": 30,
+      "round": 2,
+      "allocation": [
+        10,
+        10,
+        10
+      ],
+      "typeCounts": {
+        "agent_service": 30
+      },
+      "order": 17,
+      "id": "t1-agent-n30-r2"
+    },
+    {
+      "kind": "agent",
+      "total": 2000,
+      "round": 2,
+      "allocation": [
+        667,
+        667,
+        666
+      ],
+      "typeCounts": {
+        "agent_service": 2000
+      },
+      "order": 18,
+      "id": "t1-agent-n2000-r2"
+    },
+    {
+      "kind": "mixed",
+      "total": 1000,
+      "round": 1,
+      "allocation": [
+        334,
+        333,
+        333
+      ],
+      "typeCounts": {
+        "agent_service": 250,
+        "mcp_server": 250,
+        "tool_api": 250,
+        "skill": 250
+      },
+      "order": 19,
+      "id": "t1-mixed-n1000-r1"
+    },
+    {
+      "kind": "agent",
+      "total": 300,
+      "round": 5,
+      "allocation": [
+        100,
+        100,
+        100
+      ],
+      "typeCounts": {
+        "agent_service": 300
+      },
+      "order": 20,
+      "id": "t1-agent-n300-r5"
+    },
+    {
+      "kind": "agent",
+      "total": 1200,
+      "round": 1,
+      "allocation": [
+        400,
+        400,
+        400
+      ],
+      "typeCounts": {
+        "agent_service": 1200
+      },
+      "order": 21,
+      "id": "t1-agent-n1200-r1"
+    },
+    {
+      "kind": "agent",
+      "total": 300,
+      "round": 1,
+      "allocation": [
+        100,
+        100,
+        100
+      ],
+      "typeCounts": {
+        "agent_service": 300
+      },
+      "order": 22,
+      "id": "t1-agent-n300-r1"
+    },
+    {
+      "kind": "agent",
+      "total": 30,
+      "round": 5,
+      "allocation": [
+        10,
+        10,
+        10
+      ],
+      "typeCounts": {
+        "agent_service": 30
+      },
+      "order": 23,
+      "id": "t1-agent-n30-r5"
+    },
+    {
+      "kind": "mixed",
+      "total": 1000,
+      "round": 3,
+      "allocation": [
+        334,
+        333,
+        333
+      ],
+      "typeCounts": {
+        "agent_service": 250,
+        "mcp_server": 250,
+        "tool_api": 250,
+        "skill": 250
+      },
+      "order": 24,
+      "id": "t1-mixed-n1000-r3"
+    },
+    {
+      "kind": "mixed",
+      "total": 100,
+      "round": 2,
+      "allocation": [
+        34,
+        33,
+        33
+      ],
+      "typeCounts": {
+        "agent_service": 25,
+        "mcp_server": 25,
+        "tool_api": 25,
+        "skill": 25
+      },
+      "order": 25,
+      "id": "t1-mixed-n100-r2"
+    },
+    {
+      "kind": "mixed",
+      "total": 100,
+      "round": 5,
+      "allocation": [
+        34,
+        33,
+        33
+      ],
+      "typeCounts": {
+        "agent_service": 25,
+        "mcp_server": 25,
+        "tool_api": 25,
+        "skill": 25
+      },
+      "order": 26,
+      "id": "t1-mixed-n100-r5"
+    },
+    {
+      "kind": "agent",
+      "total": 300,
+      "round": 2,
+      "allocation": [
+        100,
+        100,
+        100
+      ],
+      "typeCounts": {
+        "agent_service": 300
+      },
+      "order": 27,
+      "id": "t1-agent-n300-r2"
+    },
+    {
+      "kind": "agent",
+      "total": 1200,
+      "round": 2,
+      "allocation": [
+        400,
+        400,
+        400
+      ],
+      "typeCounts": {
+        "agent_service": 1200
+      },
+      "order": 28,
+      "id": "t1-agent-n1200-r2"
+    },
+    {
+      "kind": "mixed",
+      "total": 1000,
+      "round": 4,
+      "allocation": [
+        334,
+        333,
+        333
+      ],
+      "typeCounts": {
+        "agent_service": 250,
+        "mcp_server": 250,
+        "tool_api": 250,
+        "skill": 250
+      },
+      "order": 29,
+      "id": "t1-mixed-n1000-r4"
+    },
+    {
+      "kind": "agent",
+      "total": 300,
+      "round": 3,
+      "allocation": [
+        100,
+        100,
+        100
+      ],
+      "typeCounts": {
+        "agent_service": 300
+      },
+      "order": 30,
+      "id": "t1-agent-n300-r3"
+    }
+  ]
+}

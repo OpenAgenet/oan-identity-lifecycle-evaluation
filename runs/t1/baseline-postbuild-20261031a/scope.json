@@ -1,0 +1,6 @@
+{
+  "scope": "post-build-read-only-http-and-process-baseline-not-performance",
+  "cycles": 36,
+  "interval": "5s sleep plus collection and requests; all response bodies discarded",
+  "processScope": "all matching processes; classify experiment by executable path, never add production CPU to experiment CPU"
+}

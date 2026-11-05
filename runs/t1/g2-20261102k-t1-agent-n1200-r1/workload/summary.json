@@ -1,0 +1,25 @@
+{
+  "id": "g2-20261102k-t1-agent-n1200-r1",
+  "total": 1200,
+  "concurrency": 16,
+  "queries": false,
+  "state": "incomplete",
+  "scope": "real-three-host-agent-pipeline",
+  "startedAt": "2026-11-02T02:50:04.845Z",
+  "requestBudgets": {
+    "registrationTimeoutMs": 1500000,
+    "queryTimeoutMs": 1500000,
+    "readTimeoutMs": 1500000,
+    "batchTimeoutMs": 1500000,
+    "readinessTimeoutMs": 1500000,
+    "observerConcurrency": 8
+  },
+  "batchTimeoutMs": 1500000,
+  "watchdogScope": "submission-start-to-observer-processing; not an OAN SLA; in-flight HTTP may finish after watchdog",
+  "signer": "sdk",
+  "verification": "per-resource-per-discovery-pinned-root",
+  "observerConcurrency": 8,
+  "preparationMs": 134442.9166,
+  "registrationWallMs": 182803.9612,
+  "error": "fetch failed"
+}

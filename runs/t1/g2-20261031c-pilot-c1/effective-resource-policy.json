@@ -1,0 +1,8 @@
+{
+  "host": "cloud",
+  "start": "2026-10-31T11:10:37.700Z",
+  "exitCode": 0,
+  "timedOut": false,
+  "stdout": "CPUQuotaPerSecUSec=infinity\nMemoryMax=infinity\nId=oan-tetc-root-g2-20261031c-pilot-c1.service\nActiveState=active\n\nCPUQuotaPerSecUSec=infinity\nMemoryMax=infinity\nId=oan-tetc-registrar-g2-20261031c-pilot-c1.service\nActiveState=active\n\nCPUQuotaPerSecUSec=infinity\nMemoryMax=infinity\nId=oan-tetc-discovery-g2-20261031c-pilot-c1.service\nActiveState=active\n               total        used        free      shared  buff/cache   available\nMem:            7266        2981         596         220        3689        3759\nSwap:           4095          50        4045\nFilesystem      Size  Used Avail Use% Mounted on\n/dev/nvme1n1p1  295G  192G   88G  69% /data\n",
+  "stderr": ""
+}

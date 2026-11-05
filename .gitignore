@@ -1,4 +1,8 @@
-runs/
+runs/*
+!runs/t1/
+runs/t1/**/private-stage/
+runs/t1/**/deployment/
+runs/t1/infrastructure-20261031/
 private/
 .local/
 __pycache__/

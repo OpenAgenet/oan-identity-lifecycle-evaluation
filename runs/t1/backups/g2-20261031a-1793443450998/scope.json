@@ -1,0 +1,13 @@
+{
+  "source": "g2-20261031a",
+  "createdAt": "2026-10-31T10:44:11.016Z",
+  "files": 12,
+  "scope": "local-redundant-copy-not-offsite-backup",
+  "excludes": [
+    "private-stage",
+    "deployment",
+    "identities",
+    "configs",
+    "database"
+  ]
+}

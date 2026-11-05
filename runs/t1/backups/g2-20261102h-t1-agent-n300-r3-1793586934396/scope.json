@@ -1,0 +1,13 @@
+{
+  "source": "g2-20261102h-t1-agent-n300-r3",
+  "createdAt": "2026-11-02T02:35:34.408Z",
+  "files": 6,
+  "scope": "local-redundant-copy-not-offsite-backup",
+  "excludes": [
+    "private-stage",
+    "deployment",
+    "identities",
+    "configs",
+    "database"
+  ]
+}

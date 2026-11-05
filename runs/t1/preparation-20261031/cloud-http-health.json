@@ -1,0 +1,8 @@
+{
+  "host": "cloud",
+  "start": "2026-10-31T10:23:09.037Z",
+  "exitCode": 0,
+  "timedOut": false,
+  "stdout": "root 200\ncdn 200\nregistrar 200\ndiscovery 200\n",
+  "stderr": ""
+}

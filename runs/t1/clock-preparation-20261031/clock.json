@@ -1,0 +1,115 @@
+{
+  "method": "SSH UTC midpoint estimate includes process startup and transport; not precise clock synchronization",
+  "rows": [
+    {
+      "host": "laptop-b",
+      "index": 0,
+      "beginUtcMs": 1793441899976,
+      "elapsedMs": 1001.7289,
+      "remoteUtcMs": 1793441901880,
+      "offsetEstimateMs": 1403.135498046875,
+      "uncertaintyAtLeastMs": 500.86445,
+      "exitCode": 0,
+      "timedOut": false
+    },
+    {
+      "host": "laptop-b",
+      "index": 1,
+      "beginUtcMs": 1793441900978,
+      "elapsedMs": 762.8875,
+      "remoteUtcMs": 1793441902650,
+      "offsetEstimateMs": 1290.55615234375,
+      "uncertaintyAtLeastMs": 381.44375,
+      "exitCode": 0,
+      "timedOut": false
+    },
+    {
+      "host": "laptop-b",
+      "index": 2,
+      "beginUtcMs": 1793441901741,
+      "elapsedMs": 825.9614999999999,
+      "remoteUtcMs": 1793441903474,
+      "offsetEstimateMs": 1320.019287109375,
+      "uncertaintyAtLeastMs": 412.98074999999994,
+      "exitCode": 0,
+      "timedOut": false
+    },
+    {
+      "host": "laptop-b",
+      "index": 3,
+      "beginUtcMs": 1793441902567,
+      "elapsedMs": 858.8339000000001,
+      "remoteUtcMs": 1793441904329,
+      "offsetEstimateMs": 1332.5830078125,
+      "uncertaintyAtLeastMs": 429.41695000000004,
+      "exitCode": 0,
+      "timedOut": false
+    },
+    {
+      "host": "laptop-b",
+      "index": 4,
+      "beginUtcMs": 1793441903426,
+      "elapsedMs": 947.9977000000003,
+      "remoteUtcMs": 1793441905269,
+      "offsetEstimateMs": 1369.001220703125,
+      "uncertaintyAtLeastMs": 473.9988500000002,
+      "exitCode": 0,
+      "timedOut": false
+    },
+    {
+      "host": "cloud",
+      "index": 0,
+      "beginUtcMs": 1793441905759,
+      "elapsedMs": 2377.8341999999993,
+      "remoteUtcMs": 1793441908991,
+      "offsetEstimateMs": 2043.0830078125,
+      "uncertaintyAtLeastMs": 1188.9170999999997,
+      "exitCode": 0,
+      "timedOut": false
+    },
+    {
+      "host": "cloud",
+      "index": 1,
+      "beginUtcMs": 1793441908137,
+      "elapsedMs": 1176.4825999999994,
+      "remoteUtcMs": 1793441910227,
+      "offsetEstimateMs": 1501.7587890625,
+      "uncertaintyAtLeastMs": 588.2412999999997,
+      "exitCode": 0,
+      "timedOut": false
+    },
+    {
+      "host": "cloud",
+      "index": 2,
+      "beginUtcMs": 1793441909313,
+      "elapsedMs": 2797.8269,
+      "remoteUtcMs": 1793441912481,
+      "offsetEstimateMs": 1769.086669921875,
+      "uncertaintyAtLeastMs": 1398.91345,
+      "exitCode": 0,
+      "timedOut": false
+    },
+    {
+      "host": "cloud",
+      "index": 3,
+      "beginUtcMs": 1793441912111,
+      "elapsedMs": 1000.0511000000006,
+      "remoteUtcMs": 1793441913950,
+      "offsetEstimateMs": 1338.974365234375,
+      "uncertaintyAtLeastMs": 500.0255500000003,
+      "exitCode": 0,
+      "timedOut": false
+    },
+    {
+      "host": "cloud",
+      "index": 4,
+      "beginUtcMs": 1793441913111,
+      "elapsedMs": 1525.9012000000002,
+      "remoteUtcMs": 1793441915489,
+      "offsetEstimateMs": 1615.04931640625,
+      "uncertaintyAtLeastMs": 762.9506000000001,
+      "exitCode": 0,
+      "timedOut": false
+    }
+  ]
+}

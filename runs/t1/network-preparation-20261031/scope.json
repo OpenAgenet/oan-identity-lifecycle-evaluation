@@ -1,0 +1,6 @@
+{
+  "count": 5,
+  "scope": "six-direction-tailnet-probes",
+  "interval": "1s sleep after each two-peer cycle; plus actual probe duration",
+  "qualification": "not OAN latency; may be collected during preparation, record build/background state separately"
+}

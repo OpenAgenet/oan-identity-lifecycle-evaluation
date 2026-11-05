@@ -1,0 +1,280 @@
+{
+  "mode": "formal-resume",
+  "stamp": "20261102a",
+  "sourceProgress": "D:\\Works\\VscodeProject\\OAN\\oan-identity-lifecycle-evaluation\\runs\\t1\\formal-20261031g\\progress.json",
+  "remaining": [
+    {
+      "kind": "agent",
+      "total": 30,
+      "round": 4,
+      "allocation": [
+        10,
+        10,
+        10
+      ],
+      "typeCounts": {
+        "agent_service": 30
+      },
+      "order": 4,
+      "id": "t1-agent-n30-r4",
+      "concurrency": 0
+    },
+    {
+      "kind": "agent",
+      "total": 2000,
+      "round": 2,
+      "allocation": [
+        667,
+        667,
+        666
+      ],
+      "typeCounts": {
+        "agent_service": 2000
+      },
+      "order": 5,
+      "id": "t1-agent-n2000-r2",
+      "concurrency": 0
+    },
+    {
+      "kind": "agent",
+      "total": 300,
+      "round": 4,
+      "allocation": [
+        100,
+        100,
+        100
+      ],
+      "typeCounts": {
+        "agent_service": 300
+      },
+      "order": 6,
+      "id": "t1-agent-n300-r4",
+      "concurrency": 0
+    },
+    {
+      "kind": "agent",
+      "total": 300,
+      "round": 3,
+      "allocation": [
+        100,
+        100,
+        100
+      ],
+      "typeCounts": {
+        "agent_service": 300
+      },
+      "order": 7,
+      "id": "t1-agent-n300-r3",
+      "concurrency": 0
+    },
+    {
+      "kind": "agent",
+      "total": 30,
+      "round": 5,
+      "allocation": [
+        10,
+        10,
+        10
+      ],
+      "typeCounts": {
+        "agent_service": 30
+      },
+      "order": 8,
+      "id": "t1-agent-n30-r5",
+      "concurrency": 0
+    },
+    {
+      "kind": "agent",
+      "total": 1200,
+      "round": 1,
+      "allocation": [
+        400,
+        400,
+        400
+      ],
+      "typeCounts": {
+        "agent_service": 1200
+      },
+      "order": 9,
+      "id": "t1-agent-n1200-r1",
+      "concurrency": 0
+    },
+    {
+      "kind": "agent",
+      "total": 2000,
+      "round": 5,
+      "allocation": [
+        667,
+        667,
+        666
+      ],
+      "typeCounts": {
+        "agent_service": 2000
+      },
+      "order": 10,
+      "id": "t1-agent-n2000-r5",
+      "concurrency": 0
+    },
+    {
+      "kind": "agent",
+      "total": 300,
+      "round": 1,
+      "allocation": [
+        100,
+        100,
+        100
+      ],
+      "typeCounts": {
+        "agent_service": 300
+      },
+      "order": 11,
+      "id": "t1-agent-n300-r1",
+      "concurrency": 0
+    },
+    {
+      "kind": "agent",
+      "total": 30,
+      "round": 1,
+      "allocation": [
+        10,
+        10,
+        10
+      ],
+      "typeCounts": {
+        "agent_service": 30
+      },
+      "order": 12,
+      "id": "t1-agent-n30-r1",
+      "concurrency": 0
+    },
+    {
+      "kind": "agent",
+      "total": 300,
+      "round": 5,
+      "allocation": [
+        100,
+        100,
+        100
+      ],
+      "typeCounts": {
+        "agent_service": 300
+      },
+      "order": 13,
+      "id": "t1-agent-n300-r5",
+      "concurrency": 0
+    },
+    {
+      "kind": "agent",
+      "total": 1200,
+      "round": 3,
+      "allocation": [
+        400,
+        400,
+        400
+      ],
+      "typeCounts": {
+        "agent_service": 1200
+      },
+      "order": 14,
+      "id": "t1-agent-n1200-r3",
+      "concurrency": 0
+    },
+    {
+      "kind": "agent",
+      "total": 1200,
+      "round": 2,
+      "allocation": [
+        400,
+        400,
+        400
+      ],
+      "typeCounts": {
+        "agent_service": 1200
+      },
+      "order": 15,
+      "id": "t1-agent-n1200-r2",
+      "concurrency": 0
+    },
+    {
+      "kind": "agent",
+      "total": 1200,
+      "round": 4,
+      "allocation": [
+        400,
+        400,
+        400
+      ],
+      "typeCounts": {
+        "agent_service": 1200
+      },
+      "order": 16,
+      "id": "t1-agent-n1200-r4",
+      "concurrency": 0
+    },
+    {
+      "kind": "agent",
+      "total": 30,
+      "round": 2,
+      "allocation": [
+        10,
+        10,
+        10
+      ],
+      "typeCounts": {
+        "agent_service": 30
+      },
+      "order": 17,
+      "id": "t1-agent-n30-r2",
+      "concurrency": 0
+    },
+    {
+      "kind": "agent",
+      "total": 300,
+      "round": 2,
+      "allocation": [
+        100,
+        100,
+        100
+      ],
+      "typeCounts": {
+        "agent_service": 300
+      },
+      "order": 18,
+      "id": "t1-agent-n300-r2",
+      "concurrency": 0
+    },
+    {
+      "kind": "agent",
+      "total": 2000,
+      "round": 4,
+      "allocation": [
+        667,
+        667,
+        666
+      ],
+      "typeCounts": {
+        "agent_service": 2000
+      },
+      "order": 19,
+      "id": "t1-agent-n2000-r4",
+      "concurrency": 0
+    },
+    {
+      "kind": "agent",
+      "total": 30,
+      "round": 3,
+      "allocation": [
+        10,
+        10,
+        10
+      ],
+      "typeCounts": {
+        "agent_service": 30
+      },
+      "order": 20,
+      "id": "t1-agent-n30-r3",
+      "concurrency": 0
+    }
+  ],
+  "state": "running"
+}

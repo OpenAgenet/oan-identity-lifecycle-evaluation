@@ -1,0 +1,13 @@
+{
+  "source": "g2-20261031b-pilot-c4",
+  "createdAt": "2026-10-31T11:00:20.574Z",
+  "files": 4,
+  "scope": "local-redundant-copy-not-offsite-backup",
+  "excludes": [
+    "private-stage",
+    "deployment",
+    "identities",
+    "configs",
+    "database"
+  ]
+}

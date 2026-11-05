@@ -1,0 +1,25 @@
+{
+  "id": "g2-20261031e-t1-agent-n2000-r1",
+  "total": 2000,
+  "concurrency": 16,
+  "queries": true,
+  "state": "incomplete",
+  "scope": "real-three-host-agent-pipeline",
+  "startedAt": "2026-10-31T11:21:38.650Z",
+  "requestBudgets": {
+    "registrationTimeoutMs": 120000,
+    "queryTimeoutMs": 180000,
+    "readTimeoutMs": 60000,
+    "batchTimeoutMs": 300000,
+    "readinessTimeoutMs": 60000,
+    "observerConcurrency": 8
+  },
+  "batchTimeoutMs": 300000,
+  "watchdogScope": "submission-start-to-observer-processing; not an OAN SLA; in-flight HTTP may finish after watchdog",
+  "signer": "sdk",
+  "verification": "per-resource-per-discovery-pinned-root",
+  "observerConcurrency": 8,
+  "preparationMs": 212491.31539999996,
+  "registrationWallMs": 24256.86619999999,
+  "error": "Unified batch deadline reached"
+}

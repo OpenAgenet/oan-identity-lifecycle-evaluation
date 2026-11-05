@@ -1,0 +1,17 @@
+{
+  "id": "g2-20261031b-pilot-c16",
+  "total": 100,
+  "concurrency": 16,
+  "queries": false,
+  "state": "incomplete",
+  "scope": "real-three-host-agent-pipeline",
+  "startedAt": "2026-10-31T10:59:39.451Z",
+  "requestTimeoutMs": 10000,
+  "batchTimeoutMs": 120000,
+  "signer": "sdk",
+  "verification": "per-resource-per-discovery-pinned-root",
+  "observerConcurrency": 8,
+  "preparationMs": 11591.0098,
+  "registrationWallMs": 2064.8223,
+  "error": "HTTP 500: /resources/register"
+}

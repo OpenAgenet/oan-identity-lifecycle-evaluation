@@ -1,0 +1,296 @@
+[
+  {
+    "did": "did:oan:6i7Bi:CjpBAPVADnoArthnqR3TQb4Rix5orkiJ",
+    "endpoint": "http://100.67.12.66:28102",
+    "firstPackageObservedMs": 361.2155999999959,
+    "lastAbsentMs": null,
+    "verifiedAtMs": 485.90519999997923,
+    "fromSubmitVerifiedMs": 485.5149000000092,
+    "verificationMs": 3.0288000000000466,
+    "report": {
+      "valid": true,
+      "checks": [
+        {
+          "name": "documentSignature",
+          "status": "passed"
+        },
+        {
+          "name": "documentBinding",
+          "status": "passed"
+        },
+        {
+          "name": "freshness",
+          "status": "passed"
+        },
+        {
+          "name": "registrationStatus",
+          "status": "passed"
+        },
+        {
+          "name": "registrationTrust",
+          "status": "passed"
+        },
+        {
+          "name": "privateVc",
+          "status": "passed"
+        },
+        {
+          "name": "governance",
+          "status": "not_checked"
+        },
+        {
+          "name": "controllerBinding",
+          "status": "not_checked"
+        },
+        {
+          "name": "instanceBinding",
+          "status": "not_checked"
+        },
+        {
+          "name": "liveRevocation",
+          "status": "not_checked"
+        }
+      ]
+    },
+    "resourcePackage": {
+      "createdAt": "2026-10-31T10:59:52.150700124Z",
+      "didDocument": {
+        "@context": [
+          "https://www.w3.org/ns/did/v1",
+          "https://openagenet.xyz/did-oan-specs/v1",
+          "https://w3id.org/security/suites/ed25519-2020/v1"
+        ],
+        "assertionMethod": [
+          "did:oan:6i7Bi:CjpBAPVADnoArthnqR3TQb4Rix5orkiJ#key-1"
+        ],
+        "authentication": [
+          "did:oan:6i7Bi:CjpBAPVADnoArthnqR3TQb4Rix5orkiJ#key-1"
+        ],
+        "controller": "did:oan:6i7Bi:CjpBAPVADnoArthnqR3TQb4Rix5orkiJ",
+        "id": "did:oan:6i7Bi:CjpBAPVADnoArthnqR3TQb4Rix5orkiJ",
+        "oanMetadata": {
+          "authorizedDomains": [
+            "technology.software_engineering"
+          ],
+          "capabilityTags": [
+            "technology.software_engineering"
+          ],
+          "identityType": "service-agent",
+          "lifecycleState": "active",
+          "networkScope": "oan-local",
+          "protocolBindings": [
+            {
+              "id": "did:oan:6i7Bi:CjpBAPVADnoArthnqR3TQb4Rix5orkiJ#binding-http",
+              "protocol": "http",
+              "serviceRef": "did:oan:6i7Bi:CjpBAPVADnoArthnqR3TQb4Rix5orkiJ#service",
+              "transport": "http",
+              "version": "1.0.0"
+            }
+          ],
+          "resourceDescription": {
+            "capabilityTags": [
+              "technology.software_engineering"
+            ],
+            "description": "g2-20261031b-pilot-c16-2 benchmark agent service resource",
+            "name": "g2-20261031b-pilot-c16-2",
+            "useCaseExamples": [
+              "Benchmark registration",
+              "Benchmark discovery"
+            ]
+          },
+          "resourceType": "agent_service",
+          "servicePolicy": "public-local-resolution",
+          "subjectType": "agent_service",
+          "ttl": 300
+        },
+        "proof": {
+          "created": "2026-10-31T10:59:39Z",
+          "proofPurpose": "assertionMethod",
+          "proofValue": "z4nkRMpvAjVrAwKzaCsyjHbbztoFydcYBAADmuSkvunLmX8QB5ZSjx1AnFLRsHXN2YNMgGGBw54UJH8TFP35xTakm",
+          "type": "Ed25519Signature2020",
+          "verificationMethod": "did:oan:6i7Bi:CjpBAPVADnoArthnqR3TQb4Rix5orkiJ#key-1"
+        },
+        "service": [
+          {
+            "id": "did:oan:6i7Bi:CjpBAPVADnoArthnqR3TQb4Rix5orkiJ#service",
+            "port": 29001,
+            "protocol": "http",
+            "serverType": "benchmark-resource",
+            "serviceEndpoint": "http://100.67.12.66:29001/invoke",
+            "type": "AgentService",
+            "version": "1.0.0"
+          }
+        ],
+        "verificationMethod": [
+          {
+            "controller": "did:oan:6i7Bi:CjpBAPVADnoArthnqR3TQb4Rix5orkiJ",
+            "id": "did:oan:6i7Bi:CjpBAPVADnoArthnqR3TQb4Rix5orkiJ#key-1",
+            "publicKeyJwk": {
+              "crv": "Ed25519",
+              "kty": "OKP",
+              "x": "gf0D9nkibnVxsHOt4KUfDweKs4b2T9HGPlBWJkm0JS4"
+            },
+            "type": "Ed25519VerificationKey2020"
+          }
+        ]
+      },
+      "didDocumentHash": "sha256:3016f98053371227b924295b910df1d79f5c6c81307d43a578ee631b514a6cc2",
+      "didDocumentRaw": {
+        "@context": [
+          "https://www.w3.org/ns/did/v1",
+          "https://openagenet.xyz/did-oan-specs/v1",
+          "https://w3id.org/security/suites/ed25519-2020/v1"
+        ],
+        "assertionMethod": [
+          "did:oan:6i7Bi:CjpBAPVADnoArthnqR3TQb4Rix5orkiJ#key-1"
+        ],
+        "authentication": [
+          "did:oan:6i7Bi:CjpBAPVADnoArthnqR3TQb4Rix5orkiJ#key-1"
+        ],
+        "controller": "did:oan:6i7Bi:CjpBAPVADnoArthnqR3TQb4Rix5orkiJ",
+        "id": "did:oan:6i7Bi:CjpBAPVADnoArthnqR3TQb4Rix5orkiJ",
+        "oanMetadata": {
+          "authorizedDomains": [
+            "technology.software_engineering"
+          ],
+          "capabilityTags": [
+            "technology.software_engineering"
+          ],
+          "identityType": "service-agent",
+          "lifecycleState": "active",
+          "networkScope": "oan-local",
+          "protocolBindings": [
+            {
+              "id": "did:oan:6i7Bi:CjpBAPVADnoArthnqR3TQb4Rix5orkiJ#binding-http",
+              "protocol": "http",
+              "serviceRef": "did:oan:6i7Bi:CjpBAPVADnoArthnqR3TQb4Rix5orkiJ#service",
+              "transport": "http",
+              "version": "1.0.0"
+            }
+          ],
+          "resourceDescription": {
+            "capabilityTags": [
+              "technology.software_engineering"
+            ],
+            "description": "g2-20261031b-pilot-c16-2 benchmark agent service resource",
+            "name": "g2-20261031b-pilot-c16-2",
+            "useCaseExamples": [
+              "Benchmark registration",
+              "Benchmark discovery"
+            ]
+          },
+          "resourceType": "agent_service",
+          "servicePolicy": "public-local-resolution",
+          "subjectType": "agent_service",
+          "ttl": 300
+        },
+        "proof": {
+          "created": "2026-10-31T10:59:39Z",
+          "proofPurpose": "assertionMethod",
+          "proofValue": "z4nkRMpvAjVrAwKzaCsyjHbbztoFydcYBAADmuSkvunLmX8QB5ZSjx1AnFLRsHXN2YNMgGGBw54UJH8TFP35xTakm",
+          "type": "Ed25519Signature2020",
+          "verificationMethod": "did:oan:6i7Bi:CjpBAPVADnoArthnqR3TQb4Rix5orkiJ#key-1"
+        },
+        "service": [
+          {
+            "id": "did:oan:6i7Bi:CjpBAPVADnoArthnqR3TQb4Rix5orkiJ#service",
+            "port": 29001,
+            "protocol": "http",
+            "serverType": "benchmark-resource",
+            "serviceEndpoint": "http://100.67.12.66:29001/invoke",
+            "type": "AgentService",
+            "version": "1.0.0"
+          }
+        ],
+        "verificationMethod": [
+          {
+            "controller": "did:oan:6i7Bi:CjpBAPVADnoArthnqR3TQb4Rix5orkiJ",
+            "id": "did:oan:6i7Bi:CjpBAPVADnoArthnqR3TQb4Rix5orkiJ#key-1",
+            "publicKeyJwk": {
+              "crv": "Ed25519",
+              "kty": "OKP",
+              "x": "gf0D9nkibnVxsHOt4KUfDweKs4b2T9HGPlBWJkm0JS4"
+            },
+            "type": "Ed25519VerificationKey2020"
+          }
+        ]
+      },
+      "hashAlgorithm": "sha256",
+      "metadata": {
+        "authorizedDomains": [
+          "technology.software_engineering"
+        ],
+        "capabilityTags": [
+          "technology.software_engineering"
+        ],
+        "description": "Benchmark resource registration",
+        "hashAlgorithm": "sha256",
+        "lifecycleState": "active",
+        "metadataHash": "sha256:efae785e54df6a03b171c58753371cab85be1726bb49a851b494addb60b56854",
+        "name": "did:oan:6i7Bi:CjpBAPVADnoArthnqR3TQb4Rix5orkiJ",
+        "packageHash": "sha256:784daf8409e3decf9cfef800118fe55862bcdc8c5c24337f8e06d2f57c6b7e9b",
+        "packageVersion": "1.0.0",
+        "protocolBindings": [
+          {
+            "id": "did:oan:6i7Bi:CjpBAPVADnoArthnqR3TQb4Rix5orkiJ#binding-http",
+            "protocol": "http",
+            "serviceRef": "did:oan:6i7Bi:CjpBAPVADnoArthnqR3TQb4Rix5orkiJ#service",
+            "transport": "http",
+            "version": "1.0.0"
+          }
+        ],
+        "resourceDid": "did:oan:6i7Bi:CjpBAPVADnoArthnqR3TQb4Rix5orkiJ",
+        "resourceType": "agent_service",
+        "services": [
+          {
+            "id": "did:oan:6i7Bi:CjpBAPVADnoArthnqR3TQb4Rix5orkiJ#service",
+            "port": 29001,
+            "protocol": "http",
+            "serverType": "benchmark-resource",
+            "serviceEndpoint": "http://100.67.12.66:29001/invoke",
+            "type": "AgentService",
+            "version": "1.0.0"
+          }
+        ],
+        "subjectDid": "did:oan:6i7Bi:CjpBAPVADnoArthnqR3TQb4Rix5orkiJ",
+        "subjectType": "agent_service",
+        "updatedAt": "2026-10-31T10:59:39.897Z"
+      },
+      "metadataHash": "sha256:efae785e54df6a03b171c58753371cab85be1726bb49a851b494addb60b56854",
+      "packageHash": "sha256:784daf8409e3decf9cfef800118fe55862bcdc8c5c24337f8e06d2f57c6b7e9b",
+      "packageVersion": "1.0.0",
+      "resourceDid": "did:oan:6i7Bi:CjpBAPVADnoArthnqR3TQb4Rix5orkiJ",
+      "resourceType": "agent_service",
+      "rootProof": {
+        "bulletinEventHash": null,
+        "cryptoSuite": "ed25519-sha256",
+        "hashAlgorithm": "SHA-256",
+        "packageClaims": {
+          "authorizedDomains": [
+            "technology.software_engineering"
+          ],
+          "didDocumentHash": "sha256:3016f98053371227b924295b910df1d79f5c6c81307d43a578ee631b514a6cc2",
+          "hashAlgorithm": "sha256",
+          "lifecycleState": "active",
+          "metadataHash": "sha256:efae785e54df6a03b171c58753371cab85be1726bb49a851b494addb60b56854",
+          "packageHash": "sha256:784daf8409e3decf9cfef800118fe55862bcdc8c5c24337f8e06d2f57c6b7e9b",
+          "resourceDid": "did:oan:6i7Bi:CjpBAPVADnoArthnqR3TQb4Rix5orkiJ",
+          "resourceType": "agent_service",
+          "version": "1.0.0"
+        },
+        "proof": {
+          "created": "2026-10-31T10:59:52.150672083Z",
+          "creator": "did:oan:RtAAn:5qLXv5PimgQLybKnZxiZfWKi1waZiBnp#key-1",
+          "cryptoSuite": "ed25519-sha256",
+          "hashAlgorithm": "sha256",
+          "proofPurpose": "assertionMethod",
+          "proofValue": "z3KtvHzTUevJ5ueEYt5gdnR1bTtT5hfdiBWeSS1Sb7MTERtcGZs6Tq2SduyQfDCCG9UJ4H6yvnwAaGmKhNRBdw2GN",
+          "type": "Ed25519Signature2020",
+          "verificationMethod": "did:oan:RtAAn:5qLXv5PimgQLybKnZxiZfWKi1waZiBnp#key-1"
+        },
+        "rootDid": "did:oan:RtAAn:5qLXv5PimgQLybKnZxiZfWKi1waZiBnp",
+        "signature": null
+      }
+    }
+  }
+]

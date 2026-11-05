@@ -1,0 +1,33 @@
+{
+  "id": "g2-20261031f-t1-agent-n2000-r1",
+  "total": 2000,
+  "concurrency": 16,
+  "queries": true,
+  "state": "complete",
+  "scope": "real-three-host-agent-pipeline",
+  "startedAt": "2026-10-31T11:37:10.587Z",
+  "requestBudgets": {
+    "registrationTimeoutMs": 1500000,
+    "queryTimeoutMs": 1500000,
+    "readTimeoutMs": 1500000,
+    "batchTimeoutMs": 1500000,
+    "readinessTimeoutMs": 1500000,
+    "observerConcurrency": 8
+  },
+  "batchTimeoutMs": 1500000,
+  "watchdogScope": "submission-start-to-observer-processing; not an OAN SLA; in-flight HTTP may finish after watchdog",
+  "signer": "sdk",
+  "verification": "per-resource-per-discovery-pinned-root",
+  "observerConcurrency": 8,
+  "preparationMs": 222638.36649999997,
+  "registrationWallMs": 26396.858499999973,
+  "allVerifiedWallMs": 488306.1253,
+  "endToEndPerSecond": 4.095791341489445,
+  "completeness": {
+    "expectedPerDiscovery": 2000,
+    "verifiedObservations": 4000,
+    "exactSets": true
+  },
+  "completionMode": "detailed-first-unit-query-samples-partial-by-user-decision",
+  "querySamplesPersisted": 1000
+}

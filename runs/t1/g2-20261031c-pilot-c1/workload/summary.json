@@ -1,0 +1,32 @@
+{
+  "id": "g2-20261031c-pilot-c1",
+  "total": 100,
+  "concurrency": 1,
+  "queries": false,
+  "state": "complete",
+  "scope": "real-three-host-agent-pipeline",
+  "startedAt": "2026-10-31T11:10:42.024Z",
+  "requestBudgets": {
+    "registrationTimeoutMs": 120000,
+    "queryTimeoutMs": 180000,
+    "readTimeoutMs": 60000,
+    "batchTimeoutMs": 300000,
+    "readinessTimeoutMs": 60000,
+    "observerConcurrency": 8
+  },
+  "batchTimeoutMs": 300000,
+  "watchdogScope": "submission-start-to-observer-processing; not an OAN SLA; in-flight HTTP may finish after watchdog",
+  "signer": "sdk",
+  "verification": "per-resource-per-discovery-pinned-root",
+  "observerConcurrency": 8,
+  "preparationMs": 12869.563200000004,
+  "registrationWallMs": 15843.663100000005,
+  "allVerifiedWallMs": 21861.914600000004,
+  "endToEndPerSecond": 4.574164789757251,
+  "completeness": {
+    "expectedPerDiscovery": 100,
+    "verifiedObservations": 200,
+    "exactSets": true
+  },
+  "completedAt": "2026-10-31T11:11:18.368Z"
+}

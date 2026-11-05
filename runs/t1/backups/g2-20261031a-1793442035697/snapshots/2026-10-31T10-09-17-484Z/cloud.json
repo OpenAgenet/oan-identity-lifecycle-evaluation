@@ -1,0 +1,8 @@
+{
+  "host": "cloud",
+  "start": "2026-10-31T10:09:33.091Z",
+  "exitCode": 0,
+  "timedOut": false,
+  "stdout": "2026-10-31T18:09:35+08:00\nMainPID=2110330\nMemoryCurrent=42201088\nCPUUsageNSec=3647284000\nCPUQuotaPerSecUSec=1s\nMemoryMax=536870912\nId=oan-tetc-root-g2-20261031a.service\nActiveState=active\n\nMainPID=2110938\nMemoryCurrent=630784\nCPUUsageNSec=7949000\nCPUQuotaPerSecUSec=1s\nMemoryMax=536870912\nId=oan-tetc-cdn-g2-20261031a.service\nActiveState=active\n\nMainPID=2112355\nMemoryCurrent=1703936\nCPUUsageNSec=112261000\nCPUQuotaPerSecUSec=1s\nMemoryMax=268435456\nId=oan-tetc-publisher-g2-20261031a.service\nActiveState=active\n\nMainPID=2113497\nMemoryCurrent=6225920\nCPUUsageNSec=25207000\nCPUQuotaPerSecUSec=1s\nMemoryMax=536870912\nId=oan-tetc-registrar-g2-20261031a.service\nActiveState=active\n\nMainPID=2117227\nMemoryCurrent=7073792\nCPUUsageNSec=25827000\nCPUQuotaPerSecUSec=1s\nMemoryMax=805306368\nId=oan-tetc-discovery-g2-20261031a.service\nActiveState=active\nLISTEN 0      128                             100.67.12.66:28110      0.0.0.0:*          \nLISTEN 0      128                             100.67.12.66:28101      0.0.0.0:*          \nLISTEN 0      128                             100.67.12.66:28100      0.0.0.0:*          \nLISTEN 0      128                             100.67.12.66:28103      0.0.0.0:*          \nLISTEN 0      128                             100.67.12.66:28102      0.0.0.0:*          \nLISTEN 0      244                                127.0.0.1:25432      0.0.0.0:*          \nLISTEN 0      4096                               127.0.0.1:24222      0.0.0.0:*          \nLISTEN 0      4096                               127.0.0.1:28222      0.0.0.0:*          \nactive\nactive\nactive\n",
+  "stderr": ""
+}

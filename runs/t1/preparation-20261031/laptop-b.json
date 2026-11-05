@@ -1,0 +1,8 @@
+{
+  "host": "laptop-b",
+  "start": "2026-10-31T09:33:15.878Z",
+  "exitCode": 0,
+  "timedOut": false,
+  "stdout": "jinliangpc\\jlxuf\r\nv24.15.0\r\nrustc 1.93.0 (254b59607 2026-01-19)\ncargo 1.93.0 (083ac5135 2025-12-15)\n{\r\n    \"Name\":  \"Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz\",\r\n    \"NumberOfCores\":  4,\r\n    \"NumberOfLogicalProcessors\":  8\r\n}\r\n{\r\n    \"Caption\":  \"Microsoft Windows 11 Home China\",\r\n    \"Version\":  \"10.0.26200\",\r\n    \"TotalVisibleMemorySize\":  24907500\r\n}\r\n{\r\n    \"Name\":  \"postgresql-x64-17\",\r\n    \"PathName\":  \"\\\"D:\\\\ProgramFiles\\\\postgresql\\\\bin\\\\pg_ctl.exe\\\" runservice -N \\\"postgresql-x64-17\\\" -D \\\"D:\\\\ProgramFiles\\\\postgresql\\\\data\\\" -w\",\r\n    \"State\":  \"Stopped\"\r\n}\r\n{\r\n    \"Free\":  32881135616,\r\n    \"Used\":  158477881344\r\n}\r\n",
+  "stderr": ""
+}

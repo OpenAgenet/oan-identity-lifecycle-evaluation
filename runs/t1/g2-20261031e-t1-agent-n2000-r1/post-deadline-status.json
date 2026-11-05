@@ -1,0 +1,126 @@
+[
+  {
+    "at": "2026-10-31T11:30:41.173Z",
+    "host": "100.69.96.59",
+    "data": {
+      "cdnEndpoint": "http://100.67.12.66:28103",
+      "discoveryDid": "did:oan:2Xr85:C2ytpjWtWvVR1hY1yu8Kgi2kpfFTwNW4",
+      "indexedResourceCount": 1101,
+      "lastSync": {
+        "backend": "postgres",
+        "blockedCursor": null,
+        "cursorLag": 0,
+        "deltaUpsert": true,
+        "elapsedMs": 18674,
+        "fromCursor": 1001,
+        "itemsFetched": 100,
+        "pagesFetched": 0,
+        "rejectedCount": 0,
+        "status": "synced",
+        "syncMode": "authorized-summary",
+        "syncedAt": "2026-10-31T11:30:36.868227900Z",
+        "syncedResourceCount": 100,
+        "targetCursor": 1101,
+        "toCursor": 1101
+      },
+      "rootAuthorizationStatus": "active",
+      "rootEndpoint": "http://100.67.12.66:28100",
+      "semanticIndexing": {
+        "embeddingRequestBatchSize": 8,
+        "enabled": false,
+        "semanticFailedCount": null,
+        "semanticIndexedResourceCount": null,
+        "semanticIntentIndexedRowCount": null,
+        "semanticLagMayExist": false,
+        "semanticPendingCount": null,
+        "workerRunning": false
+      },
+      "semanticSearch": {
+        "backend": "pgvector",
+        "batchSize": 8,
+        "defaultMode": "hybrid",
+        "dimension": 64,
+        "embeddingDtype": null,
+        "embeddingModel": "oan-deterministic-local-v1",
+        "embeddingProvider": "deterministic-local",
+        "embeddingRequestBatchSize": 8,
+        "embeddingVersion": "1:deterministic-local:64",
+        "enabled": false,
+        "explainEnabled": true,
+        "fallback": "keyword",
+        "fallbackReason": "semantic_disabled",
+        "fallbackUsed": false,
+        "filters": {
+          "capabilityTags": "hard",
+          "protocol": "hard",
+          "resourceType": "hard"
+        },
+        "healthy": false,
+        "modelPath": null,
+        "timeoutMs": 2000
+      }
+    }
+  },
+  {
+    "at": "2026-10-31T11:30:41.306Z",
+    "host": "100.67.12.66",
+    "data": {
+      "cdnEndpoint": "http://100.67.12.66:28103",
+      "discoveryDid": "did:oan:2Xr85:FBVsgaVYA5gpGvPK5EKKb6ojd7jTn5Ne",
+      "indexedResourceCount": 2000,
+      "lastSync": {
+        "backend": "postgres",
+        "blockedCursor": null,
+        "cursorLag": 0,
+        "deltaUpsert": true,
+        "elapsedMs": 169,
+        "fromCursor": 1901,
+        "itemsFetched": 99,
+        "pagesFetched": 0,
+        "rejectedCount": 0,
+        "status": "synced",
+        "syncMode": "authorized-summary",
+        "syncedAt": "2026-10-31T11:28:11.709677920Z",
+        "syncedResourceCount": 99,
+        "targetCursor": 2000,
+        "toCursor": 2000
+      },
+      "rootAuthorizationStatus": "active",
+      "rootEndpoint": "http://100.67.12.66:28100",
+      "semanticIndexing": {
+        "embeddingRequestBatchSize": 8,
+        "enabled": false,
+        "semanticFailedCount": null,
+        "semanticIndexedResourceCount": null,
+        "semanticIntentIndexedRowCount": null,
+        "semanticLagMayExist": false,
+        "semanticPendingCount": null,
+        "workerRunning": false
+      },
+      "semanticSearch": {
+        "backend": "pgvector",
+        "batchSize": 8,
+        "defaultMode": "hybrid",
+        "dimension": 64,
+        "embeddingDtype": null,
+        "embeddingModel": "oan-deterministic-local-v1",
+        "embeddingProvider": "deterministic-local",
+        "embeddingRequestBatchSize": 8,
+        "embeddingVersion": "1:deterministic-local:64",
+        "enabled": false,
+        "explainEnabled": true,
+        "fallback": "keyword",
+        "fallbackReason": "semantic_disabled",
+        "fallbackUsed": false,
+        "filters": {
+          "capabilityTags": "hard",
+          "protocol": "hard",
+          "resourceType": "hard"
+        },
+        "healthy": false,
+        "modelPath": null,
+        "timeoutMs": 2000
+      }
+    }
+  }
+]

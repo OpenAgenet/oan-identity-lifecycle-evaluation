@@ -1,0 +1,1168 @@
+[
+  {
+    "did": "did:oan:6i7Bi:D6wpvZu8GjZuUXxRjoJ9aCeELjq2pqkF",
+    "registrarHost": "100.67.12.66",
+    "submitStartMs": 1.4535000000032596,
+    "responseEndMs": 2263.1450000000186,
+    "responseMs": 2261.6615000000165,
+    "registrationCredential": {
+      "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://openagenet.xyz/did-oan-specs/v1",
+        "https://w3id.org/security/suites/ed25519-2020/v1"
+      ],
+      "credentialStatus": {
+        "credentialId": "urn:oan:credential:resource-registration:did_oan_6i7Bi_D6wpvZu8GjZuUXxRjoJ9aCeELjq2pqkF",
+        "id": "http://100.67.12.66:28101/resources/did_oan_6i7Bi_D6wpvZu8GjZuUXxRjoJ9aCeELjq2pqkF.json/status",
+        "issuerDid": "did:oan:2Xr85:6i7Biyu88M4S4dXmLEXMzf3NC8DG7JhN",
+        "status": "active",
+        "subjectDid": "did:oan:6i7Bi:D6wpvZu8GjZuUXxRjoJ9aCeELjq2pqkF",
+        "type": "OANResourceRegistrationStatus2026",
+        "updatedAt": "2026-11-02T03:06:36.309506876Z"
+      },
+      "credentialSubject": {
+        "authorizedDomains": [
+          "technology.software_engineering"
+        ],
+        "didDocumentHash": "54c124020adc18ca512e702c0f23cfd0bed474c1c25ae619a96b59e9f8821014",
+        "externalIdentifiers": [],
+        "hashAlgorithm": "sha256",
+        "id": "did:oan:6i7Bi:D6wpvZu8GjZuUXxRjoJ9aCeELjq2pqkF",
+        "lifecycleState": "active",
+        "metadataHash": "sha256:b021df8a851051c36ecb7afdf4d1304375d7e599f012314c6718eb570c100fe2",
+        "packageHash": "sha256:48a647925b552d2a83a4aa5caa3cceada3cf422b8c294e6ad2d971773844cc04",
+        "packageVersion": "1.0.0",
+        "registrarDid": "did:oan:2Xr85:6i7Biyu88M4S4dXmLEXMzf3NC8DG7JhN",
+        "resourceType": "agent_service",
+        "subjectType": "agent_service"
+      },
+      "id": "urn:oan:credential:resource-registration:did_oan_6i7Bi_D6wpvZu8GjZuUXxRjoJ9aCeELjq2pqkF",
+      "issuanceDate": "2026-11-02T03:06:36.309506876Z",
+      "issuer": "did:oan:2Xr85:6i7Biyu88M4S4dXmLEXMzf3NC8DG7JhN",
+      "proof": {
+        "created": "2026-11-02T03:06:36.309602820Z",
+        "proofPurpose": "assertionMethod",
+        "proofValue": "z3UK7z6Hjn4DyYpw19RuET3GYg6TSPiwfXUHcjD8gwCAETG3JL3NpNDgf9TLnB5tPHsWBvDUmaw8GuBBHVWAtJCST",
+        "type": "Ed25519Signature2020",
+        "verificationMethod": "did:oan:2Xr85:6i7Biyu88M4S4dXmLEXMzf3NC8DG7JhN#key-1"
+      },
+      "type": [
+        "VerifiableCredential",
+        "OANResourceRegistrationCredential"
+      ]
+    }
+  },
+  {
+    "did": "did:oan:FiUeX:Bk2TUEF3PBm9s2ang1ahggEvypnUkdmT",
+    "registrarHost": "100.69.96.59",
+    "submitStartMs": 1.2241000000212807,
+    "responseEndMs": 2275.5031000000017,
+    "responseMs": 2274.269100000005,
+    "registrationCredential": {
+      "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://openagenet.xyz/did-oan-specs/v1",
+        "https://w3id.org/security/suites/ed25519-2020/v1"
+      ],
+      "credentialStatus": {
+        "credentialId": "urn:oan:credential:resource-registration:did_oan_FiUeX_Bk2TUEF3PBm9s2ang1ahggEvypnUkdmT",
+        "id": "http://100.69.96.59:28101/resources/did_oan_FiUeX_Bk2TUEF3PBm9s2ang1ahggEvypnUkdmT.json/status",
+        "issuerDid": "did:oan:2Xr85:FiUeXgYbH55rqkFuCfRyZUXAsfKxe8Xm",
+        "status": "active",
+        "subjectDid": "did:oan:FiUeX:Bk2TUEF3PBm9s2ang1ahggEvypnUkdmT",
+        "type": "OANResourceRegistrationStatus2026",
+        "updatedAt": "2026-11-02T03:06:36.128748700Z"
+      },
+      "credentialSubject": {
+        "authorizedDomains": [
+          "technology.software_engineering"
+        ],
+        "didDocumentHash": "45ab87b3f73b18690df8e37f64a0be6b3aa6de066a18fdebffe6d408a2d0a3c9",
+        "externalIdentifiers": [],
+        "hashAlgorithm": "sha256",
+        "id": "did:oan:FiUeX:Bk2TUEF3PBm9s2ang1ahggEvypnUkdmT",
+        "lifecycleState": "active",
+        "metadataHash": "sha256:949eb95e7a8d480c05480918c21514912440bdb760b7dbbd05a01d66a24c4e3a",
+        "packageHash": "sha256:775963aa10406d5f225bee2714726a6745926040317a258b8d5f91823685d797",
+        "packageVersion": "1.0.0",
+        "registrarDid": "did:oan:2Xr85:FiUeXgYbH55rqkFuCfRyZUXAsfKxe8Xm",
+        "resourceType": "agent_service",
+        "subjectType": "agent_service"
+      },
+      "id": "urn:oan:credential:resource-registration:did_oan_FiUeX_Bk2TUEF3PBm9s2ang1ahggEvypnUkdmT",
+      "issuanceDate": "2026-11-02T03:06:36.128748700Z",
+      "issuer": "did:oan:2Xr85:FiUeXgYbH55rqkFuCfRyZUXAsfKxe8Xm",
+      "proof": {
+        "created": "2026-11-02T03:06:36.129669Z",
+        "proofPurpose": "assertionMethod",
+        "proofValue": "z4JWqtKMikynguNx3qAsDZhGtp5uMovoXycpiMyBfLCxEzMRo5Fq9R56pUDuVpQVVbigdUvbZbvPv45k7HuJYZE8E",
+        "type": "Ed25519Signature2020",
+        "verificationMethod": "did:oan:2Xr85:FiUeXgYbH55rqkFuCfRyZUXAsfKxe8Xm#key-1"
+      },
+      "type": [
+        "VerifiableCredential",
+        "OANResourceRegistrationCredential"
+      ]
+    }
+  },
+  {
+    "did": "did:oan:6i7Bi:Yvd4sgHHPnGfLmY1PjrYFrfffGKZ3Uex",
+    "registrarHost": "100.67.12.66",
+    "submitStartMs": 1.8655000000144355,
+    "responseEndMs": 2402.260399999999,
+    "responseMs": 2400.3815999999933,
+    "registrationCredential": {
+      "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://openagenet.xyz/did-oan-specs/v1",
+        "https://w3id.org/security/suites/ed25519-2020/v1"
+      ],
+      "credentialStatus": {
+        "credentialId": "urn:oan:credential:resource-registration:did_oan_6i7Bi_Yvd4sgHHPnGfLmY1PjrYFrfffGKZ3Uex",
+        "id": "http://100.67.12.66:28101/resources/did_oan_6i7Bi_Yvd4sgHHPnGfLmY1PjrYFrfffGKZ3Uex.json/status",
+        "issuerDid": "did:oan:2Xr85:6i7Biyu88M4S4dXmLEXMzf3NC8DG7JhN",
+        "status": "active",
+        "subjectDid": "did:oan:6i7Bi:Yvd4sgHHPnGfLmY1PjrYFrfffGKZ3Uex",
+        "type": "OANResourceRegistrationStatus2026",
+        "updatedAt": "2026-11-02T03:06:36.324651779Z"
+      },
+      "credentialSubject": {
+        "authorizedDomains": [
+          "technology.software_engineering"
+        ],
+        "didDocumentHash": "b22f13b1c57547f6c5dd2b0a6e1440d46652a51a87190a36be3e76c3c114c2e3",
+        "externalIdentifiers": [],
+        "hashAlgorithm": "sha256",
+        "id": "did:oan:6i7Bi:Yvd4sgHHPnGfLmY1PjrYFrfffGKZ3Uex",
+        "lifecycleState": "active",
+        "metadataHash": "sha256:457acd23f81ce347ab5fd73c15121c74ccd5e2d6b08ae3976fa46eaf5a46443f",
+        "packageHash": "sha256:eead6938fa1afc81b3e9b1a74e001911233840d0128e23ea04632145e3bfa2d0",
+        "packageVersion": "1.0.0",
+        "registrarDid": "did:oan:2Xr85:6i7Biyu88M4S4dXmLEXMzf3NC8DG7JhN",
+        "resourceType": "agent_service",
+        "subjectType": "agent_service"
+      },
+      "id": "urn:oan:credential:resource-registration:did_oan_6i7Bi_Yvd4sgHHPnGfLmY1PjrYFrfffGKZ3Uex",
+      "issuanceDate": "2026-11-02T03:06:36.324651779Z",
+      "issuer": "did:oan:2Xr85:6i7Biyu88M4S4dXmLEXMzf3NC8DG7JhN",
+      "proof": {
+        "created": "2026-11-02T03:06:36.324760003Z",
+        "proofPurpose": "assertionMethod",
+        "proofValue": "zV3SLuNcrcLWdWe983VLKfmkHcFnuTdYpxbpWiUc9FQm9r5STHhvHeSE4HJDZJUYoqLJdBeiVy9iahbnZwcwN43V",
+        "type": "Ed25519Signature2020",
+        "verificationMethod": "did:oan:2Xr85:6i7Biyu88M4S4dXmLEXMzf3NC8DG7JhN#key-1"
+      },
+      "type": [
+        "VerifiableCredential",
+        "OANResourceRegistrationCredential"
+      ]
+    }
+  },
+  {
+    "did": "did:oan:6i7Bi:55vgwFvWa2frtavDaVidh8wq7Tzi5Ccw",
+    "registrarHost": "100.67.12.66",
+    "submitStartMs": 2.1684000000241213,
+    "responseEndMs": 2443.212300000014,
+    "responseMs": 2441.0319000000018,
+    "registrationCredential": {
+      "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://openagenet.xyz/did-oan-specs/v1",
+        "https://w3id.org/security/suites/ed25519-2020/v1"
+      ],
+      "credentialStatus": {
+        "credentialId": "urn:oan:credential:resource-registration:did_oan_6i7Bi_55vgwFvWa2frtavDaVidh8wq7Tzi5Ccw",
+        "id": "http://100.67.12.66:28101/resources/did_oan_6i7Bi_55vgwFvWa2frtavDaVidh8wq7Tzi5Ccw.json/status",
+        "issuerDid": "did:oan:2Xr85:6i7Biyu88M4S4dXmLEXMzf3NC8DG7JhN",
+        "status": "active",
+        "subjectDid": "did:oan:6i7Bi:55vgwFvWa2frtavDaVidh8wq7Tzi5Ccw",
+        "type": "OANResourceRegistrationStatus2026",
+        "updatedAt": "2026-11-02T03:06:36.341678377Z"
+      },
+      "credentialSubject": {
+        "authorizedDomains": [
+          "technology.software_engineering"
+        ],
+        "didDocumentHash": "ff4903cd59d88fb52176e35dca47b2ebec7d69072ba557eec1b99ea1549915a0",
+        "externalIdentifiers": [],
+        "hashAlgorithm": "sha256",
+        "id": "did:oan:6i7Bi:55vgwFvWa2frtavDaVidh8wq7Tzi5Ccw",
+        "lifecycleState": "active",
+        "metadataHash": "sha256:7b84191eec9425763a50c35e7483ecad7ff08a9f95f1e7e878414db6b0365562",
+        "packageHash": "sha256:819d48bcd74b1b64cce9150b45ce10c6b2cfe61515c52355c5c146eaaec966c5",
+        "packageVersion": "1.0.0",
+        "registrarDid": "did:oan:2Xr85:6i7Biyu88M4S4dXmLEXMzf3NC8DG7JhN",
+        "resourceType": "agent_service",
+        "subjectType": "agent_service"
+      },
+      "id": "urn:oan:credential:resource-registration:did_oan_6i7Bi_55vgwFvWa2frtavDaVidh8wq7Tzi5Ccw",
+      "issuanceDate": "2026-11-02T03:06:36.341678377Z",
+      "issuer": "did:oan:2Xr85:6i7Biyu88M4S4dXmLEXMzf3NC8DG7JhN",
+      "proof": {
+        "created": "2026-11-02T03:06:36.341781792Z",
+        "proofPurpose": "assertionMethod",
+        "proofValue": "z4qyn4b1wkZPMo5RhEpz2y48KFMz2qxLaeDmMwY9SjiWUEEaeC8AbZqrmJLujhktaLK2iR9S7Y8mVqmCmtGHCfbVB",
+        "type": "Ed25519Signature2020",
+        "verificationMethod": "did:oan:2Xr85:6i7Biyu88M4S4dXmLEXMzf3NC8DG7JhN#key-1"
+      },
+      "type": [
+        "VerifiableCredential",
+        "OANResourceRegistrationCredential"
+      ]
+    }
+  },
+  {
+    "did": "did:oan:6i7Bi:H32P9xVNLjoSSMmayvJcYkNH4mTYUL25",
+    "registrarHost": "100.67.12.66",
+    "submitStartMs": 2.4545000000216532,
+    "responseEndMs": 4598.819600000017,
+    "responseMs": 4596.352499999979,
+    "registrationCredential": {
+      "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://openagenet.xyz/did-oan-specs/v1",
+        "https://w3id.org/security/suites/ed25519-2020/v1"
+      ],
+      "credentialStatus": {
+        "credentialId": "urn:oan:credential:resource-registration:did_oan_6i7Bi_H32P9xVNLjoSSMmayvJcYkNH4mTYUL25",
+        "id": "http://100.67.12.66:28101/resources/did_oan_6i7Bi_H32P9xVNLjoSSMmayvJcYkNH4mTYUL25.json/status",
+        "issuerDid": "did:oan:2Xr85:6i7Biyu88M4S4dXmLEXMzf3NC8DG7JhN",
+        "status": "active",
+        "subjectDid": "did:oan:6i7Bi:H32P9xVNLjoSSMmayvJcYkNH4mTYUL25",
+        "type": "OANResourceRegistrationStatus2026",
+        "updatedAt": "2026-11-02T03:06:38.374076837Z"
+      },
+      "credentialSubject": {
+        "authorizedDomains": [
+          "technology.software_engineering"
+        ],
+        "didDocumentHash": "d297f649f785fee7948e8b7139ace368fba326585d95d140a3321e0418e2d341",
+        "externalIdentifiers": [],
+        "hashAlgorithm": "sha256",
+        "id": "did:oan:6i7Bi:H32P9xVNLjoSSMmayvJcYkNH4mTYUL25",
+        "lifecycleState": "active",
+        "metadataHash": "sha256:4b1dfd7829dcc22c03348f038aef0fbdbfc9a13d6233b07bd6d0e8589ce6971a",
+        "packageHash": "sha256:ad5c6a91c96ee3fa07e0f40561b15409d120a8ecfd1df5972e3333cd30ac191c",
+        "packageVersion": "1.0.0",
+        "registrarDid": "did:oan:2Xr85:6i7Biyu88M4S4dXmLEXMzf3NC8DG7JhN",
+        "resourceType": "agent_service",
+        "subjectType": "agent_service"
+      },
+      "id": "urn:oan:credential:resource-registration:did_oan_6i7Bi_H32P9xVNLjoSSMmayvJcYkNH4mTYUL25",
+      "issuanceDate": "2026-11-02T03:06:38.374076837Z",
+      "issuer": "did:oan:2Xr85:6i7Biyu88M4S4dXmLEXMzf3NC8DG7JhN",
+      "proof": {
+        "created": "2026-11-02T03:06:38.374174161Z",
+        "proofPurpose": "assertionMethod",
+        "proofValue": "z47wtjgQ389SQzxvENWHtqA4TMnyFnyoZUP4aDtmUV2spQokyNwdWHEWRyAEDQ5uv5YqdNu6Ugaa4idGwEKt9pBqD",
+        "type": "Ed25519Signature2020",
+        "verificationMethod": "did:oan:2Xr85:6i7Biyu88M4S4dXmLEXMzf3NC8DG7JhN#key-1"
+      },
+      "type": [
+        "VerifiableCredential",
+        "OANResourceRegistrationCredential"
+      ]
+    }
+  },
+  {
+    "did": "did:oan:H1aH3:5Cv3umsbqSFsvXvwYPwu3yHktJMvUfX5",
+    "registrarHost": "100.126.2.41",
+    "submitStartMs": 0.22340000001713634,
+    "responseEndMs": 4669.19650000002,
+    "responseMs": 4668.962599999999,
+    "registrationCredential": {
+      "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://openagenet.xyz/did-oan-specs/v1",
+        "https://w3id.org/security/suites/ed25519-2020/v1"
+      ],
+      "credentialStatus": {
+        "credentialId": "urn:oan:credential:resource-registration:did_oan_H1aH3_5Cv3umsbqSFsvXvwYPwu3yHktJMvUfX5",
+        "id": "http://100.126.2.41:28101/resources/did_oan_H1aH3_5Cv3umsbqSFsvXvwYPwu3yHktJMvUfX5.json/status",
+        "issuerDid": "did:oan:2Xr85:H1aH3qh6p5KzWoh98r27fHchxmfFgfMe",
+        "status": "active",
+        "subjectDid": "did:oan:H1aH3:5Cv3umsbqSFsvXvwYPwu3yHktJMvUfX5",
+        "type": "OANResourceRegistrationStatus2026",
+        "updatedAt": "2026-11-02T03:06:37.473062600Z"
+      },
+      "credentialSubject": {
+        "authorizedDomains": [
+          "technology.software_engineering"
+        ],
+        "didDocumentHash": "92088d2dba438eba84b17efb9b8fcdffc20ad08a8a789edc6feea40fb7206c04",
+        "externalIdentifiers": [],
+        "hashAlgorithm": "sha256",
+        "id": "did:oan:H1aH3:5Cv3umsbqSFsvXvwYPwu3yHktJMvUfX5",
+        "lifecycleState": "active",
+        "metadataHash": "sha256:ba5fcbaa566a9a1e43968c62cb2859290ebd5e0bfea4244e5d7fa24a49ea949e",
+        "packageHash": "sha256:f6d7f6f30b934a0542a9e5a54dd89cc697cc12fac6e6165d1c479f0bdf04b2d1",
+        "packageVersion": "1.0.0",
+        "registrarDid": "did:oan:2Xr85:H1aH3qh6p5KzWoh98r27fHchxmfFgfMe",
+        "resourceType": "agent_service",
+        "subjectType": "agent_service"
+      },
+      "id": "urn:oan:credential:resource-registration:did_oan_H1aH3_5Cv3umsbqSFsvXvwYPwu3yHktJMvUfX5",
+      "issuanceDate": "2026-11-02T03:06:37.473062600Z",
+      "issuer": "did:oan:2Xr85:H1aH3qh6p5KzWoh98r27fHchxmfFgfMe",
+      "proof": {
+        "created": "2026-11-02T03:06:37.473148400Z",
+        "proofPurpose": "assertionMethod",
+        "proofValue": "zgC9KVrp6R8n8ytNYosq2gstyrcBwAWa4D7bp4zZavYj4Kk14QgtK3ccU9j7Nma5avbmBmUaLjLUNxJGXXTJbMh2",
+        "type": "Ed25519Signature2020",
+        "verificationMethod": "did:oan:2Xr85:H1aH3qh6p5KzWoh98r27fHchxmfFgfMe#key-1"
+      },
+      "type": [
+        "VerifiableCredential",
+        "OANResourceRegistrationCredential"
+      ]
+    }
+  },
+  {
+    "did": "did:oan:FiUeX:4j89BEddwvwpLteFwYbYyMBrRGxgbyvP",
+    "registrarHost": "100.69.96.59",
+    "submitStartMs": 2.6114000000234228,
+    "responseEndMs": 5019.604600000021,
+    "responseMs": 5016.958600000013,
+    "registrationCredential": {
+      "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://openagenet.xyz/did-oan-specs/v1",
+        "https://w3id.org/security/suites/ed25519-2020/v1"
+      ],
+      "credentialStatus": {
+        "credentialId": "urn:oan:credential:resource-registration:did_oan_FiUeX_4j89BEddwvwpLteFwYbYyMBrRGxgbyvP",
+        "id": "http://100.69.96.59:28101/resources/did_oan_FiUeX_4j89BEddwvwpLteFwYbYyMBrRGxgbyvP.json/status",
+        "issuerDid": "did:oan:2Xr85:FiUeXgYbH55rqkFuCfRyZUXAsfKxe8Xm",
+        "status": "active",
+        "subjectDid": "did:oan:FiUeX:4j89BEddwvwpLteFwYbYyMBrRGxgbyvP",
+        "type": "OANResourceRegistrationStatus2026",
+        "updatedAt": "2026-11-02T03:06:38.963914100Z"
+      },
+      "credentialSubject": {
+        "authorizedDomains": [
+          "technology.software_engineering"
+        ],
+        "didDocumentHash": "51c887f88e6f47df08d1e262565daeb5981a4ceed1105d610d1dc4bad5ef3c73",
+        "externalIdentifiers": [],
+        "hashAlgorithm": "sha256",
+        "id": "did:oan:FiUeX:4j89BEddwvwpLteFwYbYyMBrRGxgbyvP",
+        "lifecycleState": "active",
+        "metadataHash": "sha256:6b6a1405b80f01a88c4eb62d55a5e6e9fb692203ee6abf21fecb08a2bde053a9",
+        "packageHash": "sha256:e3014d11eb201bcd296c62a475bb6fa19dbd029223457a2a9fb1b85931c8a9bf",
+        "packageVersion": "1.0.0",
+        "registrarDid": "did:oan:2Xr85:FiUeXgYbH55rqkFuCfRyZUXAsfKxe8Xm",
+        "resourceType": "agent_service",
+        "subjectType": "agent_service"
+      },
+      "id": "urn:oan:credential:resource-registration:did_oan_FiUeX_4j89BEddwvwpLteFwYbYyMBrRGxgbyvP",
+      "issuanceDate": "2026-11-02T03:06:38.963914100Z",
+      "issuer": "did:oan:2Xr85:FiUeXgYbH55rqkFuCfRyZUXAsfKxe8Xm",
+      "proof": {
+        "created": "2026-11-02T03:06:38.964092500Z",
+        "proofPurpose": "assertionMethod",
+        "proofValue": "z4fUbBmM5kEsMYvvuoGQQG65BpAPBzVDfX7k5wJWpv8qA9TppghHHqH3XPf1H7vSPxYCupdQsrTQJHqQnVsgTCQ3V",
+        "type": "Ed25519Signature2020",
+        "verificationMethod": "did:oan:2Xr85:FiUeXgYbH55rqkFuCfRyZUXAsfKxe8Xm#key-1"
+      },
+      "type": [
+        "VerifiableCredential",
+        "OANResourceRegistrationCredential"
+      ]
+    }
+  },
+  {
+    "did": "did:oan:H1aH3:2Wm3MpisKQ7aHXMKrokm9NC87QNobZpC",
+    "registrarHost": "100.126.2.41",
+    "submitStartMs": 1.5983000000123866,
+    "responseEndMs": 7079.04760000002,
+    "responseMs": 7077.434500000003,
+    "registrationCredential": {
+      "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://openagenet.xyz/did-oan-specs/v1",
+        "https://w3id.org/security/suites/ed25519-2020/v1"
+      ],
+      "credentialStatus": {
+        "credentialId": "urn:oan:credential:resource-registration:did_oan_H1aH3_2Wm3MpisKQ7aHXMKrokm9NC87QNobZpC",
+        "id": "http://100.126.2.41:28101/resources/did_oan_H1aH3_2Wm3MpisKQ7aHXMKrokm9NC87QNobZpC.json/status",
+        "issuerDid": "did:oan:2Xr85:H1aH3qh6p5KzWoh98r27fHchxmfFgfMe",
+        "status": "active",
+        "subjectDid": "did:oan:H1aH3:2Wm3MpisKQ7aHXMKrokm9NC87QNobZpC",
+        "type": "OANResourceRegistrationStatus2026",
+        "updatedAt": "2026-11-02T03:06:39.951433700Z"
+      },
+      "credentialSubject": {
+        "authorizedDomains": [
+          "technology.software_engineering"
+        ],
+        "didDocumentHash": "87ff3449c918430c54262f00f400972b1470fd83f7a5d146e00ba05ec79c51d2",
+        "externalIdentifiers": [],
+        "hashAlgorithm": "sha256",
+        "id": "did:oan:H1aH3:2Wm3MpisKQ7aHXMKrokm9NC87QNobZpC",
+        "lifecycleState": "active",
+        "metadataHash": "sha256:c5e7ae805191d0b0d6382cc4654bc2255249d8c8688ae78fd7083d27e35132bc",
+        "packageHash": "sha256:531368f81a818513db668873c02b20b69a6c9481fee09599b2504f7aebd90be5",
+        "packageVersion": "1.0.0",
+        "registrarDid": "did:oan:2Xr85:H1aH3qh6p5KzWoh98r27fHchxmfFgfMe",
+        "resourceType": "agent_service",
+        "subjectType": "agent_service"
+      },
+      "id": "urn:oan:credential:resource-registration:did_oan_H1aH3_2Wm3MpisKQ7aHXMKrokm9NC87QNobZpC",
+      "issuanceDate": "2026-11-02T03:06:39.951433700Z",
+      "issuer": "did:oan:2Xr85:H1aH3qh6p5KzWoh98r27fHchxmfFgfMe",
+      "proof": {
+        "created": "2026-11-02T03:06:39.951628300Z",
+        "proofPurpose": "assertionMethod",
+        "proofValue": "z4w9uBYfH3ngPsfkXmQ6E81FSRtpiPbcggtNdgMxY4WRMZzSbhwny4qpU4bquT6A1hEVSEx4n1QDM3K8vpA6dTkyM",
+        "type": "Ed25519Signature2020",
+        "verificationMethod": "did:oan:2Xr85:H1aH3qh6p5KzWoh98r27fHchxmfFgfMe#key-1"
+      },
+      "type": [
+        "VerifiableCredential",
+        "OANResourceRegistrationCredential"
+      ]
+    }
+  },
+  {
+    "did": "did:oan:H1aH3:2KRMBekmfYm6bXcXmjTPJq5Y63a35AfS",
+    "registrarHost": "100.126.2.41",
+    "submitStartMs": 2.2621000000217464,
+    "responseEndMs": 8684.086100000015,
+    "responseMs": 8681.818300000014,
+    "registrationCredential": {
+      "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://openagenet.xyz/did-oan-specs/v1",
+        "https://w3id.org/security/suites/ed25519-2020/v1"
+      ],
+      "credentialStatus": {
+        "credentialId": "urn:oan:credential:resource-registration:did_oan_H1aH3_2KRMBekmfYm6bXcXmjTPJq5Y63a35AfS",
+        "id": "http://100.126.2.41:28101/resources/did_oan_H1aH3_2KRMBekmfYm6bXcXmjTPJq5Y63a35AfS.json/status",
+        "issuerDid": "did:oan:2Xr85:H1aH3qh6p5KzWoh98r27fHchxmfFgfMe",
+        "status": "active",
+        "subjectDid": "did:oan:H1aH3:2KRMBekmfYm6bXcXmjTPJq5Y63a35AfS",
+        "type": "OANResourceRegistrationStatus2026",
+        "updatedAt": "2026-11-02T03:06:41.557283100Z"
+      },
+      "credentialSubject": {
+        "authorizedDomains": [
+          "technology.software_engineering"
+        ],
+        "didDocumentHash": "628bc873929dbb23d757db9fd7d2342ab94674fc4091c070fe04fefae7e487d0",
+        "externalIdentifiers": [],
+        "hashAlgorithm": "sha256",
+        "id": "did:oan:H1aH3:2KRMBekmfYm6bXcXmjTPJq5Y63a35AfS",
+        "lifecycleState": "active",
+        "metadataHash": "sha256:e81db57be4e3b333a64b7dd4c21002731d06b884aab02b0c48ed2d899a895872",
+        "packageHash": "sha256:9b3b994d180d4072c3bc881734b6d0b3a9e72b3be7b292449f4779b98dad138d",
+        "packageVersion": "1.0.0",
+        "registrarDid": "did:oan:2Xr85:H1aH3qh6p5KzWoh98r27fHchxmfFgfMe",
+        "resourceType": "agent_service",
+        "subjectType": "agent_service"
+      },
+      "id": "urn:oan:credential:resource-registration:did_oan_H1aH3_2KRMBekmfYm6bXcXmjTPJq5Y63a35AfS",
+      "issuanceDate": "2026-11-02T03:06:41.557283100Z",
+      "issuer": "did:oan:2Xr85:H1aH3qh6p5KzWoh98r27fHchxmfFgfMe",
+      "proof": {
+        "created": "2026-11-02T03:06:41.557357Z",
+        "proofPurpose": "assertionMethod",
+        "proofValue": "z37tEZBqE4i8bsKjyxFdzS1PGR5GbvAXJQqnM7Vu2P72Tz6QFTkSTyntSSZAMH8jmn6N62rGvsmu8RohXxBsAxNHG",
+        "type": "Ed25519Signature2020",
+        "verificationMethod": "did:oan:2Xr85:H1aH3qh6p5KzWoh98r27fHchxmfFgfMe#key-1"
+      },
+      "type": [
+        "VerifiableCredential",
+        "OANResourceRegistrationCredential"
+      ]
+    }
+  },
+  {
+    "did": "did:oan:FiUeX:79WZQysJme5LNuMimkuujo6UMGTYb7PS",
+    "registrarHost": "100.69.96.59",
+    "submitStartMs": 1.7091000000073109,
+    "responseEndMs": 9070.385300000024,
+    "responseMs": 9068.6728,
+    "registrationCredential": {
+      "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://openagenet.xyz/did-oan-specs/v1",
+        "https://w3id.org/security/suites/ed25519-2020/v1"
+      ],
+      "credentialStatus": {
+        "credentialId": "urn:oan:credential:resource-registration:did_oan_FiUeX_79WZQysJme5LNuMimkuujo6UMGTYb7PS",
+        "id": "http://100.69.96.59:28101/resources/did_oan_FiUeX_79WZQysJme5LNuMimkuujo6UMGTYb7PS.json/status",
+        "issuerDid": "did:oan:2Xr85:FiUeXgYbH55rqkFuCfRyZUXAsfKxe8Xm",
+        "status": "active",
+        "subjectDid": "did:oan:FiUeX:79WZQysJme5LNuMimkuujo6UMGTYb7PS",
+        "type": "OANResourceRegistrationStatus2026",
+        "updatedAt": "2026-11-02T03:06:43.010542300Z"
+      },
+      "credentialSubject": {
+        "authorizedDomains": [
+          "technology.software_engineering"
+        ],
+        "didDocumentHash": "3c62acd3fd76511e2b805f003eb76ae37673472e2ef773ee4c6abe53e995dbdd",
+        "externalIdentifiers": [],
+        "hashAlgorithm": "sha256",
+        "id": "did:oan:FiUeX:79WZQysJme5LNuMimkuujo6UMGTYb7PS",
+        "lifecycleState": "active",
+        "metadataHash": "sha256:71896c796dfbe7891984158ed71c4659c127b9a317a5b6a2600c7d5639f6f110",
+        "packageHash": "sha256:4aaa4a700474fc8f5576bc38a5652b551c08e9fde930ba2fb190ec6d5810b61f",
+        "packageVersion": "1.0.0",
+        "registrarDid": "did:oan:2Xr85:FiUeXgYbH55rqkFuCfRyZUXAsfKxe8Xm",
+        "resourceType": "agent_service",
+        "subjectType": "agent_service"
+      },
+      "id": "urn:oan:credential:resource-registration:did_oan_FiUeX_79WZQysJme5LNuMimkuujo6UMGTYb7PS",
+      "issuanceDate": "2026-11-02T03:06:43.010542300Z",
+      "issuer": "did:oan:2Xr85:FiUeXgYbH55rqkFuCfRyZUXAsfKxe8Xm",
+      "proof": {
+        "created": "2026-11-02T03:06:43.010746800Z",
+        "proofPurpose": "assertionMethod",
+        "proofValue": "z3wsSQrVshDqWuXVQhvZJqy7ANFdsnyH3KMAAaaUuVH2ypyaFeyZ2477WZqSYKXwFeCarJeWfTvpUqmMcoURs59iR",
+        "type": "Ed25519Signature2020",
+        "verificationMethod": "did:oan:2Xr85:FiUeXgYbH55rqkFuCfRyZUXAsfKxe8Xm#key-1"
+      },
+      "type": [
+        "VerifiableCredential",
+        "OANResourceRegistrationCredential"
+      ]
+    }
+  },
+  {
+    "did": "did:oan:6i7Bi:5b2M5pbCdSUQrkxQMxgNhsBN3WECwY9R",
+    "registrarHost": "100.67.12.66",
+    "submitStartMs": 2275.510100000014,
+    "responseEndMs": 9331.083899999998,
+    "responseMs": 7055.569600000017,
+    "registrationCredential": {
+      "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://openagenet.xyz/did-oan-specs/v1",
+        "https://w3id.org/security/suites/ed25519-2020/v1"
+      ],
+      "credentialStatus": {
+        "credentialId": "urn:oan:credential:resource-registration:did_oan_6i7Bi_5b2M5pbCdSUQrkxQMxgNhsBN3WECwY9R",
+        "id": "http://100.67.12.66:28101/resources/did_oan_6i7Bi_5b2M5pbCdSUQrkxQMxgNhsBN3WECwY9R.json/status",
+        "issuerDid": "did:oan:2Xr85:6i7Biyu88M4S4dXmLEXMzf3NC8DG7JhN",
+        "status": "active",
+        "subjectDid": "did:oan:6i7Bi:5b2M5pbCdSUQrkxQMxgNhsBN3WECwY9R",
+        "type": "OANResourceRegistrationStatus2026",
+        "updatedAt": "2026-11-02T03:06:43.339616164Z"
+      },
+      "credentialSubject": {
+        "authorizedDomains": [
+          "technology.software_engineering"
+        ],
+        "didDocumentHash": "513b816e845d636436e095866174ffd36f98345f0cf05c210d7f3fd1d24b85e6",
+        "externalIdentifiers": [],
+        "hashAlgorithm": "sha256",
+        "id": "did:oan:6i7Bi:5b2M5pbCdSUQrkxQMxgNhsBN3WECwY9R",
+        "lifecycleState": "active",
+        "metadataHash": "sha256:517fc09bccedf985023add197017f02725c6c972083fb5489313e24c0062da88",
+        "packageHash": "sha256:6c0ff5d2a8d07e312cd1682d7710112ebaa17dda479519db8d01cdfd0a0fec42",
+        "packageVersion": "1.0.0",
+        "registrarDid": "did:oan:2Xr85:6i7Biyu88M4S4dXmLEXMzf3NC8DG7JhN",
+        "resourceType": "agent_service",
+        "subjectType": "agent_service"
+      },
+      "id": "urn:oan:credential:resource-registration:did_oan_6i7Bi_5b2M5pbCdSUQrkxQMxgNhsBN3WECwY9R",
+      "issuanceDate": "2026-11-02T03:06:43.339616164Z",
+      "issuer": "did:oan:2Xr85:6i7Biyu88M4S4dXmLEXMzf3NC8DG7JhN",
+      "proof": {
+        "created": "2026-11-02T03:06:43.339686327Z",
+        "proofPurpose": "assertionMethod",
+        "proofValue": "z63JwYqtLuyuoNYN2mMe18zbLm1UnXogDNiaxMb2JyJMeemuHXxP5jXtmgYJ3AoSqUNEa5xn8s2acDpPRrXGEqmzw",
+        "type": "Ed25519Signature2020",
+        "verificationMethod": "did:oan:2Xr85:6i7Biyu88M4S4dXmLEXMzf3NC8DG7JhN#key-1"
+      },
+      "type": [
+        "VerifiableCredential",
+        "OANResourceRegistrationCredential"
+      ]
+    }
+  },
+  {
+    "did": "did:oan:FiUeX:A1yuauWhXW4qnCyApymWA7f5LJPSJo1x",
+    "registrarHost": "100.69.96.59",
+    "submitStartMs": 2.066400000010617,
+    "responseEndMs": 9382.037000000011,
+    "responseMs": 9379.96649999998,
+    "registrationCredential": {
+      "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://openagenet.xyz/did-oan-specs/v1",
+        "https://w3id.org/security/suites/ed25519-2020/v1"
+      ],
+      "credentialStatus": {
+        "credentialId": "urn:oan:credential:resource-registration:did_oan_FiUeX_A1yuauWhXW4qnCyApymWA7f5LJPSJo1x",
+        "id": "http://100.69.96.59:28101/resources/did_oan_FiUeX_A1yuauWhXW4qnCyApymWA7f5LJPSJo1x.json/status",
+        "issuerDid": "did:oan:2Xr85:FiUeXgYbH55rqkFuCfRyZUXAsfKxe8Xm",
+        "status": "active",
+        "subjectDid": "did:oan:FiUeX:A1yuauWhXW4qnCyApymWA7f5LJPSJo1x",
+        "type": "OANResourceRegistrationStatus2026",
+        "updatedAt": "2026-11-02T03:06:43.316517500Z"
+      },
+      "credentialSubject": {
+        "authorizedDomains": [
+          "technology.software_engineering"
+        ],
+        "didDocumentHash": "dabbc2fc953fa6e72de9a8fa7e59722bd02fa1a641311cd8e49c4d39824223de",
+        "externalIdentifiers": [],
+        "hashAlgorithm": "sha256",
+        "id": "did:oan:FiUeX:A1yuauWhXW4qnCyApymWA7f5LJPSJo1x",
+        "lifecycleState": "active",
+        "metadataHash": "sha256:8b7650c540a2f031916f1e2443d4b2d60353632ab757c16961dda50ce345791d",
+        "packageHash": "sha256:c0e760610e80d3f24fcc3590653f2de5d052c81b7dfb581c4cb5a275c44f73d3",
+        "packageVersion": "1.0.0",
+        "registrarDid": "did:oan:2Xr85:FiUeXgYbH55rqkFuCfRyZUXAsfKxe8Xm",
+        "resourceType": "agent_service",
+        "subjectType": "agent_service"
+      },
+      "id": "urn:oan:credential:resource-registration:did_oan_FiUeX_A1yuauWhXW4qnCyApymWA7f5LJPSJo1x",
+      "issuanceDate": "2026-11-02T03:06:43.316517500Z",
+      "issuer": "did:oan:2Xr85:FiUeXgYbH55rqkFuCfRyZUXAsfKxe8Xm",
+      "proof": {
+        "created": "2026-11-02T03:06:43.316657500Z",
+        "proofPurpose": "assertionMethod",
+        "proofValue": "z3YQSpju6RocL4Zzgk8KDUnV62989b66Ti6wM7yktZB3JGjsArqtZCJMb1uA6n2sn3vCbp5gLbyERabfGXjpQfDPV",
+        "type": "Ed25519Signature2020",
+        "verificationMethod": "did:oan:2Xr85:FiUeXgYbH55rqkFuCfRyZUXAsfKxe8Xm#key-1"
+      },
+      "type": [
+        "VerifiableCredential",
+        "OANResourceRegistrationCredential"
+      ]
+    }
+  },
+  {
+    "did": "did:oan:FiUeX:4Xm7Ab9x6eEM3vwijZTqmqhta2c6whdK",
+    "registrarHost": "100.69.96.59",
+    "submitStartMs": 2.3716000000131316,
+    "responseEndMs": 9718.816200000001,
+    "responseMs": 9716.44140000001,
+    "registrationCredential": {
+      "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://openagenet.xyz/did-oan-specs/v1",
+        "https://w3id.org/security/suites/ed25519-2020/v1"
+      ],
+      "credentialStatus": {
+        "credentialId": "urn:oan:credential:resource-registration:did_oan_FiUeX_4Xm7Ab9x6eEM3vwijZTqmqhta2c6whdK",
+        "id": "http://100.69.96.59:28101/resources/did_oan_FiUeX_4Xm7Ab9x6eEM3vwijZTqmqhta2c6whdK.json/status",
+        "issuerDid": "did:oan:2Xr85:FiUeXgYbH55rqkFuCfRyZUXAsfKxe8Xm",
+        "status": "active",
+        "subjectDid": "did:oan:FiUeX:4Xm7Ab9x6eEM3vwijZTqmqhta2c6whdK",
+        "type": "OANResourceRegistrationStatus2026",
+        "updatedAt": "2026-11-02T03:06:43.662474Z"
+      },
+      "credentialSubject": {
+        "authorizedDomains": [
+          "technology.software_engineering"
+        ],
+        "didDocumentHash": "3c1181415c42cfb7a8b32acbbfa59fba4061feafbe265c7f33b930740100fc8d",
+        "externalIdentifiers": [],
+        "hashAlgorithm": "sha256",
+        "id": "did:oan:FiUeX:4Xm7Ab9x6eEM3vwijZTqmqhta2c6whdK",
+        "lifecycleState": "active",
+        "metadataHash": "sha256:6c20c3b03dc0fe7f853a3b1b4341802b006cdfabe728819f28ac85894ef44519",
+        "packageHash": "sha256:9df4db6731e6dba2ef9c3f5d46d691b4a447bf3de6f03df810138bf6e107a1a7",
+        "packageVersion": "1.0.0",
+        "registrarDid": "did:oan:2Xr85:FiUeXgYbH55rqkFuCfRyZUXAsfKxe8Xm",
+        "resourceType": "agent_service",
+        "subjectType": "agent_service"
+      },
+      "id": "urn:oan:credential:resource-registration:did_oan_FiUeX_4Xm7Ab9x6eEM3vwijZTqmqhta2c6whdK",
+      "issuanceDate": "2026-11-02T03:06:43.662474Z",
+      "issuer": "did:oan:2Xr85:FiUeXgYbH55rqkFuCfRyZUXAsfKxe8Xm",
+      "proof": {
+        "created": "2026-11-02T03:06:43.662710200Z",
+        "proofPurpose": "assertionMethod",
+        "proofValue": "z2ciM2f813xWxFy48PjhjcvQe1TVxvfEJqtMpzinaXLFqidMBmEfuoDAQ2HS3qDNZdoacJMaBBAgcpdtSKJK7E5xR",
+        "type": "Ed25519Signature2020",
+        "verificationMethod": "did:oan:2Xr85:FiUeXgYbH55rqkFuCfRyZUXAsfKxe8Xm#key-1"
+      },
+      "type": [
+        "VerifiableCredential",
+        "OANResourceRegistrationCredential"
+      ]
+    }
+  },
+  {
+    "did": "did:oan:6i7Bi:Ha5JXPZQFWdJjNDnReK6w8CPyhozzUZc",
+    "registrarHost": "100.67.12.66",
+    "submitStartMs": 2.669900000008056,
+    "responseEndMs": 9884.714200000017,
+    "responseMs": 9882.040899999993,
+    "registrationCredential": {
+      "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://openagenet.xyz/did-oan-specs/v1",
+        "https://w3id.org/security/suites/ed25519-2020/v1"
+      ],
+      "credentialStatus": {
+        "credentialId": "urn:oan:credential:resource-registration:did_oan_6i7Bi_Ha5JXPZQFWdJjNDnReK6w8CPyhozzUZc",
+        "id": "http://100.67.12.66:28101/resources/did_oan_6i7Bi_Ha5JXPZQFWdJjNDnReK6w8CPyhozzUZc.json/status",
+        "issuerDid": "did:oan:2Xr85:6i7Biyu88M4S4dXmLEXMzf3NC8DG7JhN",
+        "status": "active",
+        "subjectDid": "did:oan:6i7Bi:Ha5JXPZQFWdJjNDnReK6w8CPyhozzUZc",
+        "type": "OANResourceRegistrationStatus2026",
+        "updatedAt": "2026-11-02T03:06:39.043995298Z"
+      },
+      "credentialSubject": {
+        "authorizedDomains": [
+          "technology.software_engineering"
+        ],
+        "didDocumentHash": "96d24325321b071855d2d5fdff60a60276924dd9aa3fab90df3c320d7b94534d",
+        "externalIdentifiers": [],
+        "hashAlgorithm": "sha256",
+        "id": "did:oan:6i7Bi:Ha5JXPZQFWdJjNDnReK6w8CPyhozzUZc",
+        "lifecycleState": "active",
+        "metadataHash": "sha256:6883e32e3c4f2d0b5006a94b56e8cf9c4a189ca73811cb9a3efcefe2190408e5",
+        "packageHash": "sha256:78b5c8edd775b9989bf484cfbfb73b32b8cf310a5dcd7b68ca2d5df1cc5625bf",
+        "packageVersion": "1.0.0",
+        "registrarDid": "did:oan:2Xr85:6i7Biyu88M4S4dXmLEXMzf3NC8DG7JhN",
+        "resourceType": "agent_service",
+        "subjectType": "agent_service"
+      },
+      "id": "urn:oan:credential:resource-registration:did_oan_6i7Bi_Ha5JXPZQFWdJjNDnReK6w8CPyhozzUZc",
+      "issuanceDate": "2026-11-02T03:06:39.043995298Z",
+      "issuer": "did:oan:2Xr85:6i7Biyu88M4S4dXmLEXMzf3NC8DG7JhN",
+      "proof": {
+        "created": "2026-11-02T03:06:39.044076801Z",
+        "proofPurpose": "assertionMethod",
+        "proofValue": "zFzncGvueLmzN2iLc4krSkjF4gYoVempHSziAtzuniQPUbZqHSQ11snUVZfLavU2bVcTMpuVLphYe51xxYsNnKag",
+        "type": "Ed25519Signature2020",
+        "verificationMethod": "did:oan:2Xr85:6i7Biyu88M4S4dXmLEXMzf3NC8DG7JhN#key-1"
+      },
+      "type": [
+        "VerifiableCredential",
+        "OANResourceRegistrationCredential"
+      ]
+    }
+  },
+  {
+    "did": "did:oan:H1aH3:HCtFwFh5fmEqE4SNVhxA2zobGdwCY8Vf",
+    "registrarHost": "100.126.2.41",
+    "submitStartMs": 8684.089000000007,
+    "responseEndMs": 10527.537700000015,
+    "responseMs": 1843.4443000000028,
+    "registrationCredential": {
+      "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://openagenet.xyz/did-oan-specs/v1",
+        "https://w3id.org/security/suites/ed25519-2020/v1"
+      ],
+      "credentialStatus": {
+        "credentialId": "urn:oan:credential:resource-registration:did_oan_H1aH3_HCtFwFh5fmEqE4SNVhxA2zobGdwCY8Vf",
+        "id": "http://100.126.2.41:28101/resources/did_oan_H1aH3_HCtFwFh5fmEqE4SNVhxA2zobGdwCY8Vf.json/status",
+        "issuerDid": "did:oan:2Xr85:H1aH3qh6p5KzWoh98r27fHchxmfFgfMe",
+        "status": "active",
+        "subjectDid": "did:oan:H1aH3:HCtFwFh5fmEqE4SNVhxA2zobGdwCY8Vf",
+        "type": "OANResourceRegistrationStatus2026",
+        "updatedAt": "2026-11-02T03:06:43.393413800Z"
+      },
+      "credentialSubject": {
+        "authorizedDomains": [
+          "technology.software_engineering"
+        ],
+        "didDocumentHash": "a2334993d96537c86e3391ac72ddc0f378d8f90deb4debe561465a35c7746313",
+        "externalIdentifiers": [],
+        "hashAlgorithm": "sha256",
+        "id": "did:oan:H1aH3:HCtFwFh5fmEqE4SNVhxA2zobGdwCY8Vf",
+        "lifecycleState": "active",
+        "metadataHash": "sha256:458365d12e95fbcf12275f42fdb180f4a52b71225af689413f02e6255ec11d90",
+        "packageHash": "sha256:d9f068291d13a917789dc4415d0f57132cd10d056a059c16fa42be8dcf4d9051",
+        "packageVersion": "1.0.0",
+        "registrarDid": "did:oan:2Xr85:H1aH3qh6p5KzWoh98r27fHchxmfFgfMe",
+        "resourceType": "agent_service",
+        "subjectType": "agent_service"
+      },
+      "id": "urn:oan:credential:resource-registration:did_oan_H1aH3_HCtFwFh5fmEqE4SNVhxA2zobGdwCY8Vf",
+      "issuanceDate": "2026-11-02T03:06:43.393413800Z",
+      "issuer": "did:oan:2Xr85:H1aH3qh6p5KzWoh98r27fHchxmfFgfMe",
+      "proof": {
+        "created": "2026-11-02T03:06:43.393485Z",
+        "proofPurpose": "assertionMethod",
+        "proofValue": "z439nQBfBtTepPkemdsCo8gFnznAqTFeCCjhy61NC2C1YFRoNfb7m2s48tTnRiRacTxwj12LqcpTeKov4theJPPX9",
+        "type": "Ed25519Signature2020",
+        "verificationMethod": "did:oan:2Xr85:H1aH3qh6p5KzWoh98r27fHchxmfFgfMe#key-1"
+      },
+      "type": [
+        "VerifiableCredential",
+        "OANResourceRegistrationCredential"
+      ]
+    }
+  },
+  {
+    "did": "did:oan:6i7Bi:9QJyZ3kNoTFxkH8Qm98MDVRNBvoGNvkw",
+    "registrarHost": "100.67.12.66",
+    "submitStartMs": 4598.832200000004,
+    "responseEndMs": 10659.010100000014,
+    "responseMs": 6060.170599999983,
+    "registrationCredential": {
+      "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://openagenet.xyz/did-oan-specs/v1",
+        "https://w3id.org/security/suites/ed25519-2020/v1"
+      ],
+      "credentialStatus": {
+        "credentialId": "urn:oan:credential:resource-registration:did_oan_6i7Bi_9QJyZ3kNoTFxkH8Qm98MDVRNBvoGNvkw",
+        "id": "http://100.67.12.66:28101/resources/did_oan_6i7Bi_9QJyZ3kNoTFxkH8Qm98MDVRNBvoGNvkw.json/status",
+        "issuerDid": "did:oan:2Xr85:6i7Biyu88M4S4dXmLEXMzf3NC8DG7JhN",
+        "status": "active",
+        "subjectDid": "did:oan:6i7Bi:9QJyZ3kNoTFxkH8Qm98MDVRNBvoGNvkw",
+        "type": "OANResourceRegistrationStatus2026",
+        "updatedAt": "2026-11-02T03:06:44.809999948Z"
+      },
+      "credentialSubject": {
+        "authorizedDomains": [
+          "technology.software_engineering"
+        ],
+        "didDocumentHash": "efd97653247ca5876639c7492827dc490174f116465a08a8c10d2ab7f648baa9",
+        "externalIdentifiers": [],
+        "hashAlgorithm": "sha256",
+        "id": "did:oan:6i7Bi:9QJyZ3kNoTFxkH8Qm98MDVRNBvoGNvkw",
+        "lifecycleState": "active",
+        "metadataHash": "sha256:74f3ca1366027bb7a245e8097b16df129da9a3faf24572259e09d1dce5cc9c17",
+        "packageHash": "sha256:df2c5f2903a867c41633d774cc9f41ff4f85be630a47f8f77a32cee77658112e",
+        "packageVersion": "1.0.0",
+        "registrarDid": "did:oan:2Xr85:6i7Biyu88M4S4dXmLEXMzf3NC8DG7JhN",
+        "resourceType": "agent_service",
+        "subjectType": "agent_service"
+      },
+      "id": "urn:oan:credential:resource-registration:did_oan_6i7Bi_9QJyZ3kNoTFxkH8Qm98MDVRNBvoGNvkw",
+      "issuanceDate": "2026-11-02T03:06:44.809999948Z",
+      "issuer": "did:oan:2Xr85:6i7Biyu88M4S4dXmLEXMzf3NC8DG7JhN",
+      "proof": {
+        "created": "2026-11-02T03:06:44.810092141Z",
+        "proofPurpose": "assertionMethod",
+        "proofValue": "z5hqFsyk4mzmwebRQvrsKKurnEiVTVqSf7mZr9HdW1ey5aD7gReR9e6o4JWVjUfa942K9pZsbUmC7CLU3E4tXTKG7",
+        "type": "Ed25519Signature2020",
+        "verificationMethod": "did:oan:2Xr85:6i7Biyu88M4S4dXmLEXMzf3NC8DG7JhN#key-1"
+      },
+      "type": [
+        "VerifiableCredential",
+        "OANResourceRegistrationCredential"
+      ]
+    }
+  },
+  {
+    "did": "did:oan:FiUeX:2aEwvFph4zQNq1xUXvfSFKBEFsz22roT",
+    "registrarHost": "100.69.96.59",
+    "submitStartMs": 2263.189800000022,
+    "responseEndMs": 10737.331200000015,
+    "responseMs": 8474.134300000005,
+    "registrationCredential": {
+      "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://openagenet.xyz/did-oan-specs/v1",
+        "https://w3id.org/security/suites/ed25519-2020/v1"
+      ],
+      "credentialStatus": {
+        "credentialId": "urn:oan:credential:resource-registration:did_oan_FiUeX_2aEwvFph4zQNq1xUXvfSFKBEFsz22roT",
+        "id": "http://100.69.96.59:28101/resources/did_oan_FiUeX_2aEwvFph4zQNq1xUXvfSFKBEFsz22roT.json/status",
+        "issuerDid": "did:oan:2Xr85:FiUeXgYbH55rqkFuCfRyZUXAsfKxe8Xm",
+        "status": "active",
+        "subjectDid": "did:oan:FiUeX:2aEwvFph4zQNq1xUXvfSFKBEFsz22roT",
+        "type": "OANResourceRegistrationStatus2026",
+        "updatedAt": "2026-11-02T03:06:44.680037100Z"
+      },
+      "credentialSubject": {
+        "authorizedDomains": [
+          "technology.software_engineering"
+        ],
+        "didDocumentHash": "8c5448fa7f0215040a49bd50d17449823cfb34cd66ead30cacb64dd4b02448d4",
+        "externalIdentifiers": [],
+        "hashAlgorithm": "sha256",
+        "id": "did:oan:FiUeX:2aEwvFph4zQNq1xUXvfSFKBEFsz22roT",
+        "lifecycleState": "active",
+        "metadataHash": "sha256:780fd1fd77eb97871425715474a25e7e8e78e384fff9f79f71e22ec0b62fdf0d",
+        "packageHash": "sha256:0671d04607c742ed86f7f2b05ba9b50992c2ecee9ddcdd7202c48237b2958290",
+        "packageVersion": "1.0.0",
+        "registrarDid": "did:oan:2Xr85:FiUeXgYbH55rqkFuCfRyZUXAsfKxe8Xm",
+        "resourceType": "agent_service",
+        "subjectType": "agent_service"
+      },
+      "id": "urn:oan:credential:resource-registration:did_oan_FiUeX_2aEwvFph4zQNq1xUXvfSFKBEFsz22roT",
+      "issuanceDate": "2026-11-02T03:06:44.680037100Z",
+      "issuer": "did:oan:2Xr85:FiUeXgYbH55rqkFuCfRyZUXAsfKxe8Xm",
+      "proof": {
+        "created": "2026-11-02T03:06:44.680199500Z",
+        "proofPurpose": "assertionMethod",
+        "proofValue": "zGBULyA2S7KRYmjC4yjU4iVgimGdDdfocVgMmLXDJQvBZPtLKc7QXUhziq7214xokhFE1YQZFWU6aK2bSk5KTDiU",
+        "type": "Ed25519Signature2020",
+        "verificationMethod": "did:oan:2Xr85:FiUeXgYbH55rqkFuCfRyZUXAsfKxe8Xm#key-1"
+      },
+      "type": [
+        "VerifiableCredential",
+        "OANResourceRegistrationCredential"
+      ]
+    }
+  },
+  {
+    "did": "did:oan:H1aH3:AJdinyZZdfdMiQq8fdb34RXWFyFNsu36",
+    "registrarHost": "100.126.2.41",
+    "submitStartMs": 2402.272800000006,
+    "responseEndMs": 11119.537100000016,
+    "responseMs": 8717.25900000002,
+    "registrationCredential": {
+      "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://openagenet.xyz/did-oan-specs/v1",
+        "https://w3id.org/security/suites/ed25519-2020/v1"
+      ],
+      "credentialStatus": {
+        "credentialId": "urn:oan:credential:resource-registration:did_oan_H1aH3_AJdinyZZdfdMiQq8fdb34RXWFyFNsu36",
+        "id": "http://100.126.2.41:28101/resources/did_oan_H1aH3_AJdinyZZdfdMiQq8fdb34RXWFyFNsu36.json/status",
+        "issuerDid": "did:oan:2Xr85:H1aH3qh6p5KzWoh98r27fHchxmfFgfMe",
+        "status": "active",
+        "subjectDid": "did:oan:H1aH3:AJdinyZZdfdMiQq8fdb34RXWFyFNsu36",
+        "type": "OANResourceRegistrationStatus2026",
+        "updatedAt": "2026-11-02T03:06:43.983216600Z"
+      },
+      "credentialSubject": {
+        "authorizedDomains": [
+          "technology.software_engineering"
+        ],
+        "didDocumentHash": "3d24410ed11616aa274e798a71fb0198b80a51f1470b7fed0858b0a1734ba641",
+        "externalIdentifiers": [],
+        "hashAlgorithm": "sha256",
+        "id": "did:oan:H1aH3:AJdinyZZdfdMiQq8fdb34RXWFyFNsu36",
+        "lifecycleState": "active",
+        "metadataHash": "sha256:ffbb657c60c47154925643f53defc22edc5ee54a4358c1c49d2ee2eaaa1766f2",
+        "packageHash": "sha256:88182d4d27777ea6ddf1b098caa8b507997d1c4650c51204eaf4df85cbfee911",
+        "packageVersion": "1.0.0",
+        "registrarDid": "did:oan:2Xr85:H1aH3qh6p5KzWoh98r27fHchxmfFgfMe",
+        "resourceType": "agent_service",
+        "subjectType": "agent_service"
+      },
+      "id": "urn:oan:credential:resource-registration:did_oan_H1aH3_AJdinyZZdfdMiQq8fdb34RXWFyFNsu36",
+      "issuanceDate": "2026-11-02T03:06:43.983216600Z",
+      "issuer": "did:oan:2Xr85:H1aH3qh6p5KzWoh98r27fHchxmfFgfMe",
+      "proof": {
+        "created": "2026-11-02T03:06:43.983463900Z",
+        "proofPurpose": "assertionMethod",
+        "proofValue": "z3SduCYcjryMPbk47AbeKHp7w8NYVHseuRfSDpea5edFAoopcZJD7mdk1MceVeE7VuMtKxLbcJ2DQAHaVCBDrMkKy",
+        "type": "Ed25519Signature2020",
+        "verificationMethod": "did:oan:2Xr85:H1aH3qh6p5KzWoh98r27fHchxmfFgfMe#key-1"
+      },
+      "type": [
+        "VerifiableCredential",
+        "OANResourceRegistrationCredential"
+      ]
+    }
+  },
+  {
+    "did": "did:oan:H1aH3:48n42pMn3RcP3LNwySeoneR8K6CqSpRL",
+    "registrarHost": "100.126.2.41",
+    "submitStartMs": 4669.204200000007,
+    "responseEndMs": 11128.071800000005,
+    "responseMs": 6458.8636000000115,
+    "registrationCredential": {
+      "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://openagenet.xyz/did-oan-specs/v1",
+        "https://w3id.org/security/suites/ed25519-2020/v1"
+      ],
+      "credentialStatus": {
+        "credentialId": "urn:oan:credential:resource-registration:did_oan_H1aH3_48n42pMn3RcP3LNwySeoneR8K6CqSpRL",
+        "id": "http://100.126.2.41:28101/resources/did_oan_H1aH3_48n42pMn3RcP3LNwySeoneR8K6CqSpRL.json/status",
+        "issuerDid": "did:oan:2Xr85:H1aH3qh6p5KzWoh98r27fHchxmfFgfMe",
+        "status": "active",
+        "subjectDid": "did:oan:H1aH3:48n42pMn3RcP3LNwySeoneR8K6CqSpRL",
+        "type": "OANResourceRegistrationStatus2026",
+        "updatedAt": "2026-11-02T03:06:44.001379Z"
+      },
+      "credentialSubject": {
+        "authorizedDomains": [
+          "technology.software_engineering"
+        ],
+        "didDocumentHash": "2e58085347f6c53ad89abb75c2fc9c9ce46fe942576fc60c41018e50aeda73a6",
+        "externalIdentifiers": [],
+        "hashAlgorithm": "sha256",
+        "id": "did:oan:H1aH3:48n42pMn3RcP3LNwySeoneR8K6CqSpRL",
+        "lifecycleState": "active",
+        "metadataHash": "sha256:833cc663e44127d2fb4ae8ed8a7c98de6e15e1602e59fb7cb62be1eca7f9895b",
+        "packageHash": "sha256:b4c0a4858f7470c9ba6a6cd7665e9407dbb8d41e3e4a51040862a08b377ed00c",
+        "packageVersion": "1.0.0",
+        "registrarDid": "did:oan:2Xr85:H1aH3qh6p5KzWoh98r27fHchxmfFgfMe",
+        "resourceType": "agent_service",
+        "subjectType": "agent_service"
+      },
+      "id": "urn:oan:credential:resource-registration:did_oan_H1aH3_48n42pMn3RcP3LNwySeoneR8K6CqSpRL",
+      "issuanceDate": "2026-11-02T03:06:44.001379Z",
+      "issuer": "did:oan:2Xr85:H1aH3qh6p5KzWoh98r27fHchxmfFgfMe",
+      "proof": {
+        "created": "2026-11-02T03:06:44.001445300Z",
+        "proofPurpose": "assertionMethod",
+        "proofValue": "z23Mr2GyLqwwZoiGRxe1sjRHQKLxcwLRDEpZPADaxzLbfjtmyRHo4pqXgyTMfFPykNs8eFwrgsVVP8bkaSL2WuiBp",
+        "type": "Ed25519Signature2020",
+        "verificationMethod": "did:oan:2Xr85:H1aH3qh6p5KzWoh98r27fHchxmfFgfMe#key-1"
+      },
+      "type": [
+        "VerifiableCredential",
+        "OANResourceRegistrationCredential"
+      ]
+    }
+  },
+  {
+    "did": "did:oan:6i7Bi:9cQoo2xL4w9avCEpcse4b3pom1nZH4hc",
+    "registrarHost": "100.67.12.66",
+    "submitStartMs": 7079.060200000007,
+    "responseEndMs": 11272.069400000008,
+    "responseMs": 4193.0032000000065,
+    "registrationCredential": {
+      "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://openagenet.xyz/did-oan-specs/v1",
+        "https://w3id.org/security/suites/ed25519-2020/v1"
+      ],
+      "credentialStatus": {
+        "credentialId": "urn:oan:credential:resource-registration:did_oan_6i7Bi_9cQoo2xL4w9avCEpcse4b3pom1nZH4hc",
+        "id": "http://100.67.12.66:28101/resources/did_oan_6i7Bi_9cQoo2xL4w9avCEpcse4b3pom1nZH4hc.json/status",
+        "issuerDid": "did:oan:2Xr85:6i7Biyu88M4S4dXmLEXMzf3NC8DG7JhN",
+        "status": "active",
+        "subjectDid": "did:oan:6i7Bi:9cQoo2xL4w9avCEpcse4b3pom1nZH4hc",
+        "type": "OANResourceRegistrationStatus2026",
+        "updatedAt": "2026-11-02T03:06:45.427471477Z"
+      },
+      "credentialSubject": {
+        "authorizedDomains": [
+          "technology.software_engineering"
+        ],
+        "didDocumentHash": "1204dd2d6d0fa94214543839799306e8962ee84e895e5cab5af60f40e2a63eb6",
+        "externalIdentifiers": [],
+        "hashAlgorithm": "sha256",
+        "id": "did:oan:6i7Bi:9cQoo2xL4w9avCEpcse4b3pom1nZH4hc",
+        "lifecycleState": "active",
+        "metadataHash": "sha256:dd74fa19eb8a641abe8aae8842ff25cf8160be60c840c339fdd38d5da0d1896a",
+        "packageHash": "sha256:a47a75576463aafc1c18b3a023657fd0560baeb2d143855c7c60d6886a14f499",
+        "packageVersion": "1.0.0",
+        "registrarDid": "did:oan:2Xr85:6i7Biyu88M4S4dXmLEXMzf3NC8DG7JhN",
+        "resourceType": "agent_service",
+        "subjectType": "agent_service"
+      },
+      "id": "urn:oan:credential:resource-registration:did_oan_6i7Bi_9cQoo2xL4w9avCEpcse4b3pom1nZH4hc",
+      "issuanceDate": "2026-11-02T03:06:45.427471477Z",
+      "issuer": "did:oan:2Xr85:6i7Biyu88M4S4dXmLEXMzf3NC8DG7JhN",
+      "proof": {
+        "created": "2026-11-02T03:06:45.427566831Z",
+        "proofPurpose": "assertionMethod",
+        "proofValue": "z5JU4JWtjumMi2wBgGyMQXHTpoW4Msjuko8LBzNRf9DkUS2DrnV621Jko6gFnY5vcnb5TzUb3aHhvadYnishhuNVX",
+        "type": "Ed25519Signature2020",
+        "verificationMethod": "did:oan:2Xr85:6i7Biyu88M4S4dXmLEXMzf3NC8DG7JhN#key-1"
+      },
+      "type": [
+        "VerifiableCredential",
+        "OANResourceRegistrationCredential"
+      ]
+    }
+  },
+  {
+    "did": "did:oan:FiUeX:DNBrQAgP5JcDzVx9cXidzvGzadonMuXq",
+    "registrarHost": "100.69.96.59",
+    "submitStartMs": 2443.2248000000254,
+    "responseEndMs": 15021.020400000009,
+    "responseMs": 12577.789400000009,
+    "registrationCredential": {
+      "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://openagenet.xyz/did-oan-specs/v1",
+        "https://w3id.org/security/suites/ed25519-2020/v1"
+      ],
+      "credentialStatus": {
+        "credentialId": "urn:oan:credential:resource-registration:did_oan_FiUeX_DNBrQAgP5JcDzVx9cXidzvGzadonMuXq",
+        "id": "http://100.69.96.59:28101/resources/did_oan_FiUeX_DNBrQAgP5JcDzVx9cXidzvGzadonMuXq.json/status",
+        "issuerDid": "did:oan:2Xr85:FiUeXgYbH55rqkFuCfRyZUXAsfKxe8Xm",
+        "status": "active",
+        "subjectDid": "did:oan:FiUeX:DNBrQAgP5JcDzVx9cXidzvGzadonMuXq",
+        "type": "OANResourceRegistrationStatus2026",
+        "updatedAt": "2026-11-02T03:06:48.954040400Z"
+      },
+      "credentialSubject": {
+        "authorizedDomains": [
+          "technology.software_engineering"
+        ],
+        "didDocumentHash": "ae5cf5927df5f2e68e0f190772e30de1119f1e52d8392a2b23eb36075cf935e0",
+        "externalIdentifiers": [],
+        "hashAlgorithm": "sha256",
+        "id": "did:oan:FiUeX:DNBrQAgP5JcDzVx9cXidzvGzadonMuXq",
+        "lifecycleState": "active",
+        "metadataHash": "sha256:b1721fa614e8ca6f295ab4ec9afe3cb98d0437e5b1f3fde2183ca1d899110f6c",
+        "packageHash": "sha256:653754fba073b6095eb9655ab31959f71ae9ad723b991843e4fd628a250a0655",
+        "packageVersion": "1.0.0",
+        "registrarDid": "did:oan:2Xr85:FiUeXgYbH55rqkFuCfRyZUXAsfKxe8Xm",
+        "resourceType": "agent_service",
+        "subjectType": "agent_service"
+      },
+      "id": "urn:oan:credential:resource-registration:did_oan_FiUeX_DNBrQAgP5JcDzVx9cXidzvGzadonMuXq",
+      "issuanceDate": "2026-11-02T03:06:48.954040400Z",
+      "issuer": "did:oan:2Xr85:FiUeXgYbH55rqkFuCfRyZUXAsfKxe8Xm",
+      "proof": {
+        "created": "2026-11-02T03:06:48.954521900Z",
+        "proofPurpose": "assertionMethod",
+        "proofValue": "zrHkYS5cuUukmp7tteM7rPmEio4g5SvFmKuGjdsiU3U416Njm8pET1sHM6sKfAKhMdbtXPdpnBr94Eo58V5FWzxn",
+        "type": "Ed25519Signature2020",
+        "verificationMethod": "did:oan:2Xr85:FiUeXgYbH55rqkFuCfRyZUXAsfKxe8Xm#key-1"
+      },
+      "type": [
+        "VerifiableCredential",
+        "OANResourceRegistrationCredential"
+      ]
+    }
+  },
+  {
+    "did": "did:oan:FiUeX:5emK1CVBcMTgEisWyoB4HjVhNnW6znoV",
+    "registrarHost": "100.69.96.59",
+    "submitStartMs": 5019.617500000022,
+    "responseEndMs": 15055.700200000021,
+    "responseMs": 10036.070299999992,
+    "registrationCredential": {
+      "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://openagenet.xyz/did-oan-specs/v1",
+        "https://w3id.org/security/suites/ed25519-2020/v1"
+      ],
+      "credentialStatus": {
+        "credentialId": "urn:oan:credential:resource-registration:did_oan_FiUeX_5emK1CVBcMTgEisWyoB4HjVhNnW6znoV",
+        "id": "http://100.69.96.59:28101/resources/did_oan_FiUeX_5emK1CVBcMTgEisWyoB4HjVhNnW6znoV.json/status",
+        "issuerDid": "did:oan:2Xr85:FiUeXgYbH55rqkFuCfRyZUXAsfKxe8Xm",
+        "status": "active",
+        "subjectDid": "did:oan:FiUeX:5emK1CVBcMTgEisWyoB4HjVhNnW6znoV",
+        "type": "OANResourceRegistrationStatus2026",
+        "updatedAt": "2026-11-02T03:06:49.000191500Z"
+      },
+      "credentialSubject": {
+        "authorizedDomains": [
+          "technology.software_engineering"
+        ],
+        "didDocumentHash": "c4a0c34a67537e3c2a0232caa457231104f989040dfe04f17079010156a70367",
+        "externalIdentifiers": [],
+        "hashAlgorithm": "sha256",
+        "id": "did:oan:FiUeX:5emK1CVBcMTgEisWyoB4HjVhNnW6znoV",
+        "lifecycleState": "active",
+        "metadataHash": "sha256:cc978b70939c1039e75718cf7b13b002ffb2be75bbe13e792f774d8654c69233",
+        "packageHash": "sha256:d6f2718593dd1a267608344eb26a5d73a203c9f45578f8f917e7a5c1d1c72837",
+        "packageVersion": "1.0.0",
+        "registrarDid": "did:oan:2Xr85:FiUeXgYbH55rqkFuCfRyZUXAsfKxe8Xm",
+        "resourceType": "agent_service",
+        "subjectType": "agent_service"
+      },
+      "id": "urn:oan:credential:resource-registration:did_oan_FiUeX_5emK1CVBcMTgEisWyoB4HjVhNnW6znoV",
+      "issuanceDate": "2026-11-02T03:06:49.000191500Z",
+      "issuer": "did:oan:2Xr85:FiUeXgYbH55rqkFuCfRyZUXAsfKxe8Xm",
+      "proof": {
+        "created": "2026-11-02T03:06:49.000333500Z",
+        "proofPurpose": "assertionMethod",
+        "proofValue": "zRdvxYrQJ6AnC58EYwGxGVbnMMEjAj4h3wv5iBJ6KHxKhRHpEoCDyDgaPFyb5dRnoiMp1svipCpGMUdmUovpYAyf",
+        "type": "Ed25519Signature2020",
+        "verificationMethod": "did:oan:2Xr85:FiUeXgYbH55rqkFuCfRyZUXAsfKxe8Xm#key-1"
+      },
+      "type": [
+        "VerifiableCredential",
+        "OANResourceRegistrationCredential"
+      ]
+    }
+  }
+]

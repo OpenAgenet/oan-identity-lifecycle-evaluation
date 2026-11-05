@@ -1,0 +1,8 @@
+{
+  "host": "cloud",
+  "start": "2026-10-31T11:00:17.289Z",
+  "exitCode": 0,
+  "timedOut": false,
+  "stdout": "Oct 31 18:59:25 iZj6c6461pw0a3gtr5vjccZ systemd[1]: Started /data/oan/experiments/tetc-cross-host/bin/root-node /data/oan/experiments/tetc-cross-host/runs/g2-20261031b-pilot-c16/config/root.toml.\nOct 31 18:59:25 iZj6c6461pw0a3gtr5vjccZ systemd[1]: Started /data/oan/experiments/tetc-cross-host/bin/registrar-node /data/oan/experiments/tetc-cross-host/runs/g2-20261031b-pilot-c16/config/registrar-c.toml.\nOct 31 18:59:25 iZj6c6461pw0a3gtr5vjccZ registrar-node[2129189]: registrar-node listening on http://100.67.12.66:28101\nOct 31 18:59:25 iZj6c6461pw0a3gtr5vjccZ root-node[2129177]: root-node listening on http://100.67.12.66:28100\nOct 31 18:59:53 iZj6c6461pw0a3gtr5vjccZ systemd[1]: oan-tetc-root-g2-20261031b-pilot-c16.service: A process of this unit has been killed by the OOM killer.\nOct 31 18:59:53 iZj6c6461pw0a3gtr5vjccZ systemd[1]: oan-tetc-root-g2-20261031b-pilot-c16.service: Main process exited, code=killed, status=9/KILL\nOct 31 18:59:53 iZj6c6461pw0a3gtr5vjccZ systemd[1]: oan-tetc-root-g2-20261031b-pilot-c16.service: Failed with result 'oom-kill'.\nOct 31 18:59:53 iZj6c6461pw0a3gtr5vjccZ systemd[1]: oan-tetc-root-g2-20261031b-pilot-c16.service: Consumed 1.282s CPU time.\nactive\nactive\nactive\n",
+  "stderr": ""
+}

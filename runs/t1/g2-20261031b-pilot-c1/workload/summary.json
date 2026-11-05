@@ -1,0 +1,24 @@
+{
+  "id": "g2-20261031b-pilot-c1",
+  "total": 100,
+  "concurrency": 1,
+  "queries": false,
+  "state": "complete",
+  "scope": "real-three-host-agent-pipeline",
+  "startedAt": "2026-10-31T10:55:07.072Z",
+  "requestTimeoutMs": 10000,
+  "batchTimeoutMs": 120000,
+  "signer": "sdk",
+  "verification": "per-resource-per-discovery-pinned-root",
+  "observerConcurrency": 8,
+  "preparationMs": 12767.4297,
+  "registrationWallMs": 15166.016599999995,
+  "allVerifiedWallMs": 18754.9326,
+  "endToEndPerSecond": 5.331930651672937,
+  "completeness": {
+    "expectedPerDiscovery": 100,
+    "verifiedObservations": 200,
+    "exactSets": true
+  },
+  "completedAt": "2026-10-31T10:55:39.572Z"
+}

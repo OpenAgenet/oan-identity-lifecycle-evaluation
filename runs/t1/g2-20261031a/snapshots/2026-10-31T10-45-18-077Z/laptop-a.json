@@ -1,0 +1,35 @@
+{
+    "processes":  [
+                      {
+                          "ProcessId":  22732,
+                          "ParentProcessId":  45268,
+                          "ExecutablePath":  "C:\\Program Files\\PostgreSQL\\17\\bin\\postgres.exe",
+                          "CreationDate":  "\/Date(1793439574305)\/"
+                      },
+                      {
+                          "ProcessId":  41372,
+                          "ParentProcessId":  2564,
+                          "ExecutablePath":  "D:\\Works\\VscodeProject\\OAN\\oan-identity-lifecycle-evaluation\\runs\\t1\\g2-20261031a\\deployment\\bin\\registrar-node.exe",
+                          "CreationDate":  "\/Date(1793440471363)\/"
+                      }
+                  ],
+    "tasks":  [
+                  {
+                      "TaskName":  "OAN-TETC-registrar-a-g2-20261031a",
+                      "State":  4
+                  }
+              ],
+    "listeners":  [
+                      {
+                          "LocalAddress":  "100.126.2.41",
+                          "LocalPort":  28101,
+                          "OwningProcess":  41372
+                      },
+                      {
+                          "LocalAddress":  "127.0.0.1",
+                          "LocalPort":  25432,
+                          "OwningProcess":  22732
+                      }
+                  ],
+    "at":  "2026-10-31T10:45:25.5838966Z"
+}

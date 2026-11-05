@@ -1,0 +1,133 @@
+{
+  "previous": "g2-20261031d-pilot-c16",
+  "results": [
+    {
+      "id": "g2-20261031c-pilot-c1",
+      "total": 100,
+      "concurrency": 1,
+      "queries": false,
+      "state": "complete",
+      "scope": "real-three-host-agent-pipeline",
+      "startedAt": "2026-10-31T11:10:42.024Z",
+      "requestBudgets": {
+        "registrationTimeoutMs": 120000,
+        "queryTimeoutMs": 180000,
+        "readTimeoutMs": 60000,
+        "batchTimeoutMs": 300000,
+        "readinessTimeoutMs": 60000,
+        "observerConcurrency": 8
+      },
+      "batchTimeoutMs": 300000,
+      "watchdogScope": "submission-start-to-observer-processing; not an OAN SLA; in-flight HTTP may finish after watchdog",
+      "signer": "sdk",
+      "verification": "per-resource-per-discovery-pinned-root",
+      "observerConcurrency": 8,
+      "preparationMs": 12869.563200000004,
+      "registrationWallMs": 15843.663100000005,
+      "allVerifiedWallMs": 21861.914600000004,
+      "endToEndPerSecond": 4.574164789757251,
+      "completeness": {
+        "expectedPerDiscovery": 100,
+        "verifiedObservations": 200,
+        "exactSets": true
+      },
+      "completedAt": "2026-10-31T11:11:18.368Z"
+    },
+    {
+      "id": "g2-20261031c-pilot-c4",
+      "total": 100,
+      "concurrency": 4,
+      "queries": false,
+      "state": "complete",
+      "scope": "real-three-host-agent-pipeline",
+      "startedAt": "2026-10-31T11:12:16.266Z",
+      "requestBudgets": {
+        "registrationTimeoutMs": 120000,
+        "queryTimeoutMs": 180000,
+        "readTimeoutMs": 60000,
+        "batchTimeoutMs": 300000,
+        "readinessTimeoutMs": 60000,
+        "observerConcurrency": 8
+      },
+      "batchTimeoutMs": 300000,
+      "watchdogScope": "submission-start-to-observer-processing; not an OAN SLA; in-flight HTTP may finish after watchdog",
+      "signer": "sdk",
+      "verification": "per-resource-per-discovery-pinned-root",
+      "observerConcurrency": 8,
+      "preparationMs": 11679.984100000001,
+      "registrationWallMs": 5292.589800000016,
+      "allVerifiedWallMs": 18573.369800000015,
+      "endToEndPerSecond": 5.384052602021628,
+      "completeness": {
+        "expectedPerDiscovery": 100,
+        "verifiedObservations": 200,
+        "exactSets": true
+      },
+      "completedAt": "2026-10-31T11:12:48.311Z"
+    },
+    {
+      "id": "g2-20261031d-pilot-c8",
+      "total": 100,
+      "concurrency": 8,
+      "queries": false,
+      "state": "complete",
+      "scope": "real-three-host-agent-pipeline",
+      "startedAt": "2026-10-31T11:17:47.705Z",
+      "requestBudgets": {
+        "registrationTimeoutMs": 120000,
+        "queryTimeoutMs": 180000,
+        "readTimeoutMs": 60000,
+        "batchTimeoutMs": 300000,
+        "readinessTimeoutMs": 60000,
+        "observerConcurrency": 8
+      },
+      "batchTimeoutMs": 300000,
+      "watchdogScope": "submission-start-to-observer-processing; not an OAN SLA; in-flight HTTP may finish after watchdog",
+      "signer": "sdk",
+      "verification": "per-resource-per-discovery-pinned-root",
+      "observerConcurrency": 8,
+      "preparationMs": 12260.578399999999,
+      "registrationWallMs": 2948.5850000000064,
+      "allVerifiedWallMs": 18964.454299999998,
+      "endToEndPerSecond": 5.273022804563379,
+      "completeness": {
+        "expectedPerDiscovery": 100,
+        "verifiedObservations": 200,
+        "exactSets": true
+      },
+      "completedAt": "2026-10-31T11:18:22.026Z"
+    },
+    {
+      "id": "g2-20261031d-pilot-c16",
+      "total": 100,
+      "concurrency": 16,
+      "queries": false,
+      "state": "complete",
+      "scope": "real-three-host-agent-pipeline",
+      "startedAt": "2026-10-31T11:19:34.504Z",
+      "requestBudgets": {
+        "registrationTimeoutMs": 120000,
+        "queryTimeoutMs": 180000,
+        "readTimeoutMs": 60000,
+        "batchTimeoutMs": 300000,
+        "readinessTimeoutMs": 60000,
+        "observerConcurrency": 8
+      },
+      "batchTimeoutMs": 300000,
+      "watchdogScope": "submission-start-to-observer-processing; not an OAN SLA; in-flight HTTP may finish after watchdog",
+      "signer": "sdk",
+      "verification": "per-resource-per-discovery-pinned-root",
+      "observerConcurrency": 8,
+      "preparationMs": 11649.090400000016,
+      "registrationWallMs": 2033.152700000006,
+      "allVerifiedWallMs": 18033.79699999999,
+      "endToEndPerSecond": 5.5451439316966935,
+      "completeness": {
+        "expectedPerDiscovery": 100,
+        "verifiedObservations": 200,
+        "exactSets": true
+      },
+      "completedAt": "2026-10-31T11:20:06.034Z"
+    }
+  ]
+}

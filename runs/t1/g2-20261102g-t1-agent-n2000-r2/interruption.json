@@ -1,0 +1,1 @@
+{"state":"incomplete-not-a-performance-result","reason":"Publisher startup connection refused; NATS started concurrently without readiness barrier","rootAcceptedCount":2000,"cloudDiscoveryIndexedCount":0,"driverStoppedManually":true,"retainRunAndDatabases":true,"coreModulesChanged":false}

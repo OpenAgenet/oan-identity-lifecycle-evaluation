@@ -1,0 +1,30 @@
+{
+  "state": "frozen-from-complete-pilots",
+  "concurrency": 16,
+  "lastRun": "g2-20261031d-pilot-c16",
+  "pilots": [
+    {
+      "id": "g2-20261031c-pilot-c1",
+      "concurrency": 1,
+      "allVerifiedWallMs": 21861.914600000004
+    },
+    {
+      "id": "g2-20261031c-pilot-c4",
+      "concurrency": 4,
+      "allVerifiedWallMs": 18573.369800000015
+    },
+    {
+      "id": "g2-20261031d-pilot-c8",
+      "concurrency": 8,
+      "allVerifiedWallMs": 18964.454299999998
+    },
+    {
+      "id": "g2-20261031d-pilot-c16",
+      "concurrency": 16,
+      "allVerifiedWallMs": 18033.79699999999
+    }
+  ],
+  "criterion": "lowest all-resource/all-Discovery verified wall time among complete pilots",
+  "resourcePolicy": "no-added-memory-or-cpu-quota",
+  "at": "2026-10-31T11:20:07.719Z"
+}

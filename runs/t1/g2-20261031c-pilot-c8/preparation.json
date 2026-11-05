@@ -1,0 +1,53 @@
+{
+  "id": "g2-20261031c-pilot-c8",
+  "state": "prepared-not-deployed",
+  "roles": [
+    {
+      "name": "root",
+      "host": "c",
+      "node": "genesis-root",
+      "port": 28100,
+      "endpoint": "http://100.67.12.66:28100"
+    },
+    {
+      "name": "registrar-a",
+      "host": "a",
+      "node": "genesis-registrar-1",
+      "port": 28101,
+      "endpoint": "http://100.126.2.41:28101"
+    },
+    {
+      "name": "registrar-b",
+      "host": "b",
+      "node": "genesis-registrar-2",
+      "port": 28101,
+      "endpoint": "http://100.69.96.59:28101"
+    },
+    {
+      "name": "registrar-c",
+      "host": "c",
+      "node": "genesis-registrar-3",
+      "port": 28101,
+      "endpoint": "http://100.67.12.66:28101"
+    },
+    {
+      "name": "discovery-a",
+      "host": "b",
+      "node": "genesis-discovery-1",
+      "port": 28102,
+      "endpoint": "http://100.69.96.59:28102"
+    },
+    {
+      "name": "discovery-b",
+      "host": "c",
+      "node": "genesis-discovery-2",
+      "port": 28102,
+      "endpoint": "http://100.67.12.66:28102"
+    }
+  ],
+  "events": {
+    "endpoint": "nats://127.0.0.1:24222",
+    "stream": "OAN_RESOURCE_PUBLICATION_g2_20261031c_pilot_c8"
+  },
+  "privateStage": "D:\\Works\\VscodeProject\\OAN\\oan-identity-lifecycle-evaluation\\runs\\t1\\g2-20261031c-pilot-c8\\private-stage"
+}

@@ -1,0 +1,149 @@
+{
+  "id": "g2-20261102m-t1-agent-n2000-r5",
+  "at": "2026-11-02T03:16:34.057Z",
+  "node": "v24.15.0",
+  "sources": [
+    {
+      "repo": "oan-root-services",
+      "head": "fedc552397afec7a4c89e7882afe27e589bee8e8",
+      "trackedDiffSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "repo": "oan-registrar-node",
+      "head": "edded5a02b596b47a188d59224f24cb41499d837",
+      "trackedDiffSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "repo": "oan-discovery-node",
+      "head": "ce9f6ca54b1128edd5c817919973f96c3582d1bf",
+      "trackedDiffSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "repo": "oan-protocol-common",
+      "head": "a19d48f1d7813251093a3d99b632ba9d70afcdb2",
+      "trackedDiffSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "repo": "oan-sdk-ts",
+      "head": "b2c68bbc21439f11238344dbe2f47d52b571bda6",
+      "trackedDiffSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "repo": "oan-official-skill",
+      "head": "632f6c676ead532a87e72c48ef3cddb510db07f3",
+      "trackedDiffSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "repo": "oan-identity-lifecycle-evaluation",
+      "head": "7d1c2d873c87e2453920dd845aff4dd62eb26a0b",
+      "trackedDiffSha256": "ce620e11eda3480cc1e0e7b575fb480de9118e7e7627e08a6dfd24fed22525c6"
+    }
+  ],
+  "driverHashes": [
+    {
+      "file": "cross-host.ts",
+      "sha256": "138a2ad04fb885fd1b80ef49f56db1a66bba48c3f65a4d8c5d409ba8f1aa40e4"
+    },
+    {
+      "file": "t1-business-baseline.ts",
+      "sha256": "b6af7297bce3b11f17c01eb88cf161e02402191f15a020f4735ec87fb33402ea"
+    },
+    {
+      "file": "t1-clock.ts",
+      "sha256": "82578ebe406375c715f01aeed59a3630aebea8e086157039d318b93ef5aa3608"
+    },
+    {
+      "file": "t1-collector.ts",
+      "sha256": "e724de2a66b8ba2fe7c40138e26b3f092a0f2e2f87571690fbc452818a1ae3cf"
+    },
+    {
+      "file": "t1-config.ts",
+      "sha256": "28165885143d9bebe39ee1eca4926ae641e88cf2f54ad97bc42ad0b824cde8d8"
+    },
+    {
+      "file": "t1-continue.ts",
+      "sha256": "048d1f90499f46515ff4c3cb8ef3b817be7c39716debac8eafb2266920613d95"
+    },
+    {
+      "file": "t1-deploy.ts",
+      "sha256": "00c042a252efb2ae19f5331c0fa4976822d24632e4f45c04a3d63da26e94a118"
+    },
+    {
+      "file": "t1-evidence-backup.ts",
+      "sha256": "52d7c61468e01131b0347c88e1b803f0cf383f2ff50b5d589745769417610c8a"
+    },
+    {
+      "file": "t1-g2.ts",
+      "sha256": "7fe3fb341ee9e1a5c061aa70dc977db96069e01b52de7b81c0efc6e9e348b0d3"
+    },
+    {
+      "file": "t1-matrix.ts",
+      "sha256": "0786611e1be4b6df6970e90117a1e3e30f90742f5452d4373b72642396106711"
+    },
+    {
+      "file": "t1-network.ts",
+      "sha256": "fca69c3289589343d9f3d7e62de7599c0de0cee1ef9f6916e5cdc72e550c1503"
+    },
+    {
+      "file": "t1-policy.ts",
+      "sha256": "3718a3727515b0de7c2e91302dc5641359e8cf82c3c6561990468d48a1beace7"
+    },
+    {
+      "file": "t1-prepare.ts",
+      "sha256": "45fc8651e9644bf485e4b85a3530554148d04b83222e7a84efc6e9ab3a9d9f5e"
+    },
+    {
+      "file": "t1-provenance.ts",
+      "sha256": "7a37fa95e2384c9deb1ee39aca86b8455a076149bf6da353a32dd35802f2d056"
+    },
+    {
+      "file": "t1-resume.ts",
+      "sha256": "0c726a9962f538aa731682f167bc8affe35bff3c05a2f6c21148128eaf4689ab"
+    },
+    {
+      "file": "t1-run.ts",
+      "sha256": "dff2835a2a73b064071fe34588308e0c901e9c31eddef53fcc204681991436cd"
+    },
+    {
+      "file": "t1-stage.ts",
+      "sha256": "cb1bbe94f7167a0d575e71214c788796cc0effdc52652e833e819164d3d46eac"
+    },
+    {
+      "file": "t1-status.ts",
+      "sha256": "597763ffdfadeeca6c312ada00709acd26906b032602a87f75301d2c73e7b129"
+    },
+    {
+      "file": "t1-workload.ts",
+      "sha256": "a3ad8b1d14a645c3ac8644783081194bfde44c3a4872229e9693b5fb021dccf7"
+    }
+  ],
+  "receipts": [
+    {
+      "host": "laptop-b",
+      "start": "2026-11-02T03:16:31.496Z",
+      "exitCode": 0,
+      "timedOut": false,
+      "stdout": "{\r\n    \"binary\":  \"D:\\\\Works\\\\VscodeProject\\\\OAN\\\\oan-identity-lifecycle-evaluation\\\\runs\\\\t1\\\\g2-20261102m-t1-agent-n2000-r5\\\\bin\\\\discovery-node.exe\",\r\n    \"state\":  \"start-requested-not-health-verified\",\r\n    \"requestedAt\":  \"2026-11-02T03:16:22.7855333Z\",\r\n    \"config\":  \"D:\\\\Works\\\\VscodeProject\\\\OAN\\\\oan-identity-lifecycle-evaluation\\\\runs\\\\t1\\\\g2-20261102m-t1-agent-n2000-r5\\\\config\\\\discovery-a.toml\",\r\n    \"listenAddress\":  \"100.69.96.59\",\r\n    \"role\":  \"discovery-a\",\r\n    \"sha256\":  \"6B909A52E59A99427D870E541E4B43AF817230656501E163AF84DE58C617527E\",\r\n    \"task\":  \"OAN-TETC-discovery-a-g2-20261102m-t1-agent-n2000-r5\",\r\n    \"port\":  28102\r\n}\r\n{\r\n    \"binary\":  \"D:\\\\Works\\\\VscodeProject\\\\OAN\\\\oan-identity-lifecycle-evaluation\\\\runs\\\\t1\\\\g2-20261102m-t1-agent-n2000-r5\\\\bin\\\\registrar-node.exe\",\r\n    \"state\":  \"start-requested-not-health-verified\",\r\n    \"requestedAt\":  \"2026-11-02T03:16:19.9514168Z\",\r\n    \"config\":  \"D:\\\\Works\\\\VscodeProject\\\\OAN\\\\oan-identity-lifecycle-evaluation\\\\runs\\\\t1\\\\g2-20261102m-t1-agent-n2000-r5\\\\config\\\\registrar-b.toml\",\r\n    \"listenAddress\":  \"100.69.96.59\",\r\n    \"role\":  \"registrar-b\",\r\n    \"sha256\":  \"28ED0B3FA1D0086881C29FF4A3F5E69DFEFA3B3145B83791644D13206C22D84F\",\r\n    \"task\":  \"OAN-TETC-registrar-b-g2-20261102m-t1-agent-n2000-r5\",\r\n    \"port\":  28101\r\n}\r\n",
+      "stderr": ""
+    },
+    {
+      "host": "cloud",
+      "start": "2026-11-02T03:16:32.604Z",
+      "exitCode": 0,
+      "timedOut": false,
+      "stdout": "CPUQuotaPerSecUSec=infinity\nMemoryMax=infinity\nWorkingDirectory=/data/oan/experiments/tetc-cross-host/runs/g2-20261102m-t1-agent-n2000-r5\nUser=oan-tetc\nId=oan-tetc-root-g2-20261102m-t1-agent-n2000-r5.service\nActiveState=active\n\nCPUQuotaPerSecUSec=infinity\nMemoryMax=infinity\nWorkingDirectory=/data/oan/experiments/tetc-cross-host/runs/g2-20261102m-t1-agent-n2000-r5\nUser=oan-tetc\nId=oan-tetc-registrar-g2-20261102m-t1-agent-n2000-r5.service\nActiveState=active\n\nCPUQuotaPerSecUSec=infinity\nMemoryMax=infinity\nWorkingDirectory=/data/oan/experiments/tetc-cross-host/runs/g2-20261102m-t1-agent-n2000-r5\nUser=oan-tetc\nId=oan-tetc-discovery-g2-20261102m-t1-agent-n2000-r5.service\nActiveState=active\n\nCPUQuotaPerSecUSec=infinity\nMemoryMax=infinity\nWorkingDirectory=/data/oan/experiments/tetc-cross-host/runs/g2-20261102m-t1-agent-n2000-r5\nUser=oan-tetc\nId=oan-tetc-cdn-g2-20261102m-t1-agent-n2000-r5.service\nActiveState=active\n\nCPUQuotaPerSecUSec=infinity\nMemoryMax=infinity\nWorkingDirectory=/data/oan/experiments/tetc-cross-host/runs/g2-20261102m-t1-agent-n2000-r5\nUser=oan-tetc\nId=oan-tetc-publisher-g2-20261102m-t1-agent-n2000-r5.service\nActiveState=active\n\nCPUQuotaPerSecUSec=infinity\nMemoryMax=infinity\nWorkingDirectory=/data/oan/experiments/tetc-cross-host/runs/g2-20261102m-t1-agent-n2000-r5\nUser=oan-tetc\nId=oan-tetc-nats-g2-20261102m-t1-agent-n2000-r5.service\nActiveState=active\nd300fbce21a9f53140d27bfee41f24c40b0c37570c91dbce43fffebe860361f9  /data/oan/experiments/tetc-cross-host/bin/root-node\na0fa3163c4d56096f92a570d6bb8f1cc77a7ca25577aec040bc17498fa459fb0  /data/oan/experiments/tetc-cross-host/bin/registrar-node\n77328626968bfb44d09e0d7c80e82153fc9d5749e4f2d186b4fbf8333a3e04b6  /data/oan/experiments/tetc-cross-host/bin/discovery-node\n278fce0a8b262404398117f4ae5023df29786e519d3fabb930c6293c23d6e3c0  /data/oan/experiments/tetc-cross-host/bin/cdn-node\n7339e29eb01ee42d2c921df240f0f087253f6dd3d52beb03364adaaff5b41c28  /data/oan/experiments/tetc-cross-host/bin/cdn-publisher\nactive\nactive\nactive\n",
+      "stderr": ""
+    }
+  ],
+  "local": {
+    "task": "OAN-TETC-registrar-a-g2-20261102m-t1-agent-n2000-r5",
+    "role": "registrar-a",
+    "config": "D:\\Works\\VscodeProject\\OAN\\oan-identity-lifecycle-evaluation\\runs\\t1\\g2-20261102m-t1-agent-n2000-r5\\deployment\\config\\registrar-a.toml",
+    "state": "start-requested-not-health-verified",
+    "requestedAt": "2026-11-02T03:16:14.2539833Z",
+    "sha256": "C95E9E8F1CC9B11018C0A7923C985CF6E2921A70A2702ABB251A0DE5F8C2F669",
+    "listenAddress": "100.126.2.41",
+    "port": 28101,
+    "binary": "D:\\Works\\VscodeProject\\OAN\\oan-identity-lifecycle-evaluation\\runs\\t1\\g2-20261102m-t1-agent-n2000-r5\\deployment\\bin\\registrar-node.exe"
+  }
+}

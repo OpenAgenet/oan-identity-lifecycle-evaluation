@@ -1,0 +1,29 @@
+{
+  "mode": "pilot",
+  "stamp": "20261031b",
+  "matrix": [
+    {
+      "id": "pilot-c1",
+      "total": 100,
+      "concurrency": 1
+    },
+    {
+      "id": "pilot-c4",
+      "total": 100,
+      "concurrency": 4
+    },
+    {
+      "id": "pilot-c8",
+      "total": 100,
+      "concurrency": 8
+    },
+    {
+      "id": "pilot-c16",
+      "total": 100,
+      "concurrency": 16
+    }
+  ],
+  "previous": "g2-20261031a",
+  "concurrency": 0,
+  "state": "planned-not-measured"
+}

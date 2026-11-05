@@ -1,0 +1,4 @@
+[
+  "{\"host\":\"laptop-b\",\"start\":\"2026-11-02T01:33:26.814Z\",\"exitCode\":0,\"timedOut\":false,\"stdout\":\"Only matching experiment task stopped; database, files, and unrelated processes preserved\\r\\nOnly matching experiment task stopped; database, files, and unrelated processes preserved\\r\\n\",\"stderr\":\"\"}",
+  "{\"host\":\"cloud\",\"start\":\"2026-11-02T01:33:34.277Z\",\"exitCode\":1,\"timedOut\":false,\"stdout\":\"\",\"stderr\":\"\"}"
+]

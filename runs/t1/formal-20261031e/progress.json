@@ -1,0 +1,6 @@
+{
+  "active": "g2-20261031e-t1-agent-n2000-r1",
+  "completed": [],
+  "state": "stopped-not-retried",
+  "error": "Unified batch deadline reached"
+}

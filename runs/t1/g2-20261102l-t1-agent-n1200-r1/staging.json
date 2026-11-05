@@ -1,0 +1,15 @@
+{
+  "id": "g2-20261102l-t1-agent-n1200-r1",
+  "record": [
+    {
+      "host": "laptop-b",
+      "target": "D:/Works/VscodeProject/OAN/oan-identity-lifecycle-evaluation/runs/t1/g2-20261102l-t1-agent-n1200-r1",
+      "state": "inputs-staged-not-started"
+    },
+    {
+      "host": "cloud",
+      "target": "/data/oan/experiments/tetc-cross-host/runs/g2-20261102l-t1-agent-n1200-r1",
+      "state": "inputs-staged-not-started"
+    }
+  ]
+}

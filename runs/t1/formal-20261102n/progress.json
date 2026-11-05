@@ -1,0 +1,704 @@
+{
+  "active": "g2-20261102n-t1-agent-n30-r3",
+  "completed": [
+    {
+      "id": "g2-20261031f-t1-agent-n2000-r1",
+      "total": 2000,
+      "concurrency": 16,
+      "queries": true,
+      "state": "complete",
+      "scope": "real-three-host-agent-pipeline",
+      "startedAt": "2026-10-31T11:37:10.587Z",
+      "requestBudgets": {
+        "registrationTimeoutMs": 1500000,
+        "queryTimeoutMs": 1500000,
+        "readTimeoutMs": 1500000,
+        "batchTimeoutMs": 1500000,
+        "readinessTimeoutMs": 1500000,
+        "observerConcurrency": 8
+      },
+      "batchTimeoutMs": 1500000,
+      "watchdogScope": "submission-start-to-observer-processing; not an OAN SLA; in-flight HTTP may finish after watchdog",
+      "signer": "sdk",
+      "verification": "per-resource-per-discovery-pinned-root",
+      "observerConcurrency": 8,
+      "preparationMs": 222638.36649999997,
+      "registrationWallMs": 26396.858499999973,
+      "allVerifiedWallMs": 488306.1253,
+      "endToEndPerSecond": 4.095791341489445,
+      "completeness": {
+        "expectedPerDiscovery": 2000,
+        "verifiedObservations": 4000,
+        "exactSets": true
+      },
+      "completionMode": "detailed-first-unit-query-samples-partial-by-user-decision",
+      "querySamplesPersisted": 1000
+    },
+    {
+      "id": "g2-20261031g-t1-agent-n1200-r5",
+      "total": 1200,
+      "concurrency": 16,
+      "queries": false,
+      "state": "complete",
+      "scope": "real-three-host-agent-pipeline",
+      "startedAt": "2026-10-31T12:27:41.428Z",
+      "requestBudgets": {
+        "registrationTimeoutMs": 1500000,
+        "queryTimeoutMs": 1500000,
+        "readTimeoutMs": 1500000,
+        "batchTimeoutMs": 1500000,
+        "readinessTimeoutMs": 1500000,
+        "observerConcurrency": 8
+      },
+      "batchTimeoutMs": 1500000,
+      "watchdogScope": "submission-start-to-observer-processing; not an OAN SLA; in-flight HTTP may finish after watchdog",
+      "signer": "sdk",
+      "verification": "per-resource-per-discovery-pinned-root",
+      "observerConcurrency": 8,
+      "preparationMs": 135541.38540000003,
+      "registrationWallMs": 21862.771399999998,
+      "allVerifiedWallMs": 312387.2406,
+      "endToEndPerSecond": 3.841386087649317,
+      "completeness": {
+        "expectedPerDiscovery": 1200,
+        "indexedCounts": {
+          "http://100.69.96.59:28102": 1200,
+          "http://100.67.12.66:28102": 1200
+        },
+        "indexOnly": true
+      },
+      "completedAt": "2026-10-31T12:35:09.481Z"
+    },
+    {
+      "id": "g2-20261031g-t1-agent-n2000-r3",
+      "total": 2000,
+      "concurrency": 16,
+      "queries": false,
+      "state": "complete",
+      "scope": "real-three-host-agent-pipeline",
+      "startedAt": "2026-10-31T12:36:27.411Z",
+      "requestBudgets": {
+        "registrationTimeoutMs": 1500000,
+        "queryTimeoutMs": 1500000,
+        "readTimeoutMs": 1500000,
+        "batchTimeoutMs": 1500000,
+        "readinessTimeoutMs": 1500000,
+        "observerConcurrency": 8
+      },
+      "batchTimeoutMs": 1500000,
+      "watchdogScope": "submission-start-to-observer-processing; not an OAN SLA; in-flight HTTP may finish after watchdog",
+      "signer": "sdk",
+      "verification": "per-resource-per-discovery-pinned-root",
+      "observerConcurrency": 8,
+      "preparationMs": 219379.00510000007,
+      "registrationWallMs": 36737.6115,
+      "allVerifiedWallMs": 497545.39969999995,
+      "endToEndPerSecond": 4.019733678988732,
+      "completeness": {
+        "expectedPerDiscovery": 2000,
+        "indexedCounts": {
+          "http://100.69.96.59:28102": 2000,
+          "http://100.67.12.66:28102": 2000
+        },
+        "indexOnly": true
+      },
+      "completedAt": "2026-10-31T12:48:24.459Z"
+    },
+    {
+      "id": "g2-20261102g-t1-agent-n30-r4",
+      "total": 30,
+      "concurrency": 16,
+      "queries": false,
+      "state": "complete",
+      "scope": "real-three-host-agent-pipeline",
+      "startedAt": "2026-11-02T01:51:31.729Z",
+      "requestBudgets": {
+        "registrationTimeoutMs": 1500000,
+        "queryTimeoutMs": 1500000,
+        "readTimeoutMs": 1500000,
+        "batchTimeoutMs": 1500000,
+        "readinessTimeoutMs": 1500000,
+        "observerConcurrency": 8
+      },
+      "batchTimeoutMs": 1500000,
+      "watchdogScope": "submission-start-to-observer-processing; not an OAN SLA; in-flight HTTP may finish after watchdog",
+      "signer": "sdk",
+      "verification": "per-resource-per-discovery-pinned-root",
+      "observerConcurrency": 8,
+      "preparationMs": 4872.805700000026,
+      "registrationWallMs": 3347.8833999999915,
+      "allVerifiedWallMs": 9067.900200000004,
+      "endToEndPerSecond": 3.3083734203426705,
+      "completeness": {
+        "expectedPerDiscovery": 30,
+        "indexedCounts": {
+          "http://100.69.96.59:28102": 30,
+          "http://100.67.12.66:28102": 30
+        },
+        "indexOnly": true
+      },
+      "completedAt": "2026-11-02T01:51:46.948Z"
+    },
+    {
+      "id": "g2-20261102h-t1-agent-n2000-r2",
+      "total": 2000,
+      "concurrency": 16,
+      "queries": false,
+      "state": "complete",
+      "scope": "real-three-host-agent-pipeline",
+      "startedAt": "2026-11-02T02:13:09.987Z",
+      "requestBudgets": {
+        "registrationTimeoutMs": 1500000,
+        "queryTimeoutMs": 1500000,
+        "readTimeoutMs": 1500000,
+        "batchTimeoutMs": 1500000,
+        "readinessTimeoutMs": 1500000,
+        "observerConcurrency": 8
+      },
+      "batchTimeoutMs": 1500000,
+      "watchdogScope": "submission-start-to-observer-processing; not an OAN SLA; in-flight HTTP may finish after watchdog",
+      "signer": "sdk",
+      "verification": "per-resource-per-discovery-pinned-root",
+      "observerConcurrency": 8,
+      "preparationMs": 222519.39520000003,
+      "registrationWallMs": 331554.5358,
+      "allVerifiedWallMs": 337360.5853,
+      "endToEndPerSecond": 5.92837482251072,
+      "completeness": {
+        "expectedPerDiscovery": 2000,
+        "indexedCounts": {
+          "http://100.69.96.59:28102": 2000,
+          "http://100.67.12.66:28102": 2000
+        },
+        "indexOnly": true
+      },
+      "completedAt": "2026-11-02T02:22:32.225Z"
+    },
+    {
+      "id": "g2-20261102h-t1-agent-n300-r4",
+      "total": 300,
+      "concurrency": 16,
+      "queries": false,
+      "state": "complete",
+      "scope": "real-three-host-agent-pipeline",
+      "startedAt": "2026-11-02T02:27:14.529Z",
+      "requestBudgets": {
+        "registrationTimeoutMs": 1500000,
+        "queryTimeoutMs": 1500000,
+        "readTimeoutMs": 1500000,
+        "batchTimeoutMs": 1500000,
+        "readinessTimeoutMs": 1500000,
+        "observerConcurrency": 8
+      },
+      "batchTimeoutMs": 1500000,
+      "watchdogScope": "submission-start-to-observer-processing; not an OAN SLA; in-flight HTTP may finish after watchdog",
+      "signer": "sdk",
+      "verification": "per-resource-per-discovery-pinned-root",
+      "observerConcurrency": 8,
+      "preparationMs": 33364.91379999998,
+      "registrationWallMs": 48462.289999999804,
+      "allVerifiedWallMs": 54216.0606999998,
+      "endToEndPerSecond": 5.533415672894898,
+      "completeness": {
+        "expectedPerDiscovery": 300,
+        "indexedCounts": {
+          "http://100.69.96.59:28102": 300,
+          "http://100.67.12.66:28102": 300
+        },
+        "indexOnly": true
+      },
+      "completedAt": "2026-11-02T02:28:45.937Z"
+    },
+    {
+      "id": "g2-20261102h-t1-agent-n300-r3",
+      "total": 300,
+      "concurrency": 16,
+      "queries": false,
+      "state": "complete",
+      "scope": "real-three-host-agent-pipeline",
+      "startedAt": "2026-11-02T02:33:32.783Z",
+      "requestBudgets": {
+        "registrationTimeoutMs": 1500000,
+        "queryTimeoutMs": 1500000,
+        "readTimeoutMs": 1500000,
+        "batchTimeoutMs": 1500000,
+        "readinessTimeoutMs": 1500000,
+        "observerConcurrency": 8
+      },
+      "batchTimeoutMs": 1500000,
+      "watchdogScope": "submission-start-to-observer-processing; not an OAN SLA; in-flight HTTP may finish after watchdog",
+      "signer": "sdk",
+      "verification": "per-resource-per-discovery-pinned-root",
+      "observerConcurrency": 8,
+      "preparationMs": 33669.18240000005,
+      "registrationWallMs": 67392.61679999996,
+      "allVerifiedWallMs": 77596.71770000015,
+      "endToEndPerSecond": 3.8661429103205407,
+      "completeness": {
+        "expectedPerDiscovery": 300,
+        "indexedCounts": {
+          "http://100.69.96.59:28102": 300,
+          "http://100.67.12.66:28102": 300
+        },
+        "indexOnly": true
+      },
+      "completedAt": "2026-11-02T02:35:26.752Z"
+    },
+    {
+      "id": "g2-20261102j-t1-agent-n30-r5",
+      "total": 30,
+      "concurrency": 16,
+      "queries": false,
+      "state": "complete",
+      "scope": "real-three-host-agent-pipeline",
+      "startedAt": "2026-11-02T02:43:23.549Z",
+      "requestBudgets": {
+        "registrationTimeoutMs": 1500000,
+        "queryTimeoutMs": 1500000,
+        "readTimeoutMs": 1500000,
+        "batchTimeoutMs": 1500000,
+        "readinessTimeoutMs": 1500000,
+        "observerConcurrency": 8
+      },
+      "batchTimeoutMs": 1500000,
+      "watchdogScope": "submission-start-to-observer-processing; not an OAN SLA; in-flight HTTP may finish after watchdog",
+      "signer": "sdk",
+      "verification": "per-resource-per-discovery-pinned-root",
+      "observerConcurrency": 8,
+      "preparationMs": 4531.464099999983,
+      "registrationWallMs": 5746.621000000014,
+      "allVerifiedWallMs": 12175.077900000004,
+      "endToEndPerSecond": 2.464049942546979,
+      "completeness": {
+        "expectedPerDiscovery": 30,
+        "indexedCounts": {
+          "http://100.69.96.59:28102": 30,
+          "http://100.67.12.66:28102": 30
+        },
+        "indexOnly": true
+      },
+      "completedAt": "2026-11-02T02:43:42.585Z"
+    },
+    {
+      "id": "g2-20261102m-t1-agent-n1200-r1",
+      "total": 1200,
+      "concurrency": 16,
+      "queries": false,
+      "state": "complete",
+      "scope": "real-three-host-agent-pipeline",
+      "startedAt": "2026-11-02T03:09:48.437Z",
+      "requestBudgets": {
+        "registrationTimeoutMs": 1500000,
+        "queryTimeoutMs": 1500000,
+        "readTimeoutMs": 1500000,
+        "batchTimeoutMs": 1500000,
+        "readinessTimeoutMs": 1500000,
+        "observerConcurrency": 8
+      },
+      "batchTimeoutMs": 1500000,
+      "watchdogScope": "submission-start-to-observer-processing; not an OAN SLA; in-flight HTTP may finish after watchdog",
+      "signer": "sdk",
+      "verification": "per-resource-per-discovery-pinned-root",
+      "observerConcurrency": 8,
+      "preparationMs": 130940.64110000001,
+      "registrationWallMs": 199947.0669,
+      "allVerifiedWallMs": 205349.6601,
+      "endToEndPerSecond": 5.843691191968036,
+      "completeness": {
+        "expectedPerDiscovery": 1200,
+        "indexedCounts": {
+          "http://100.69.96.59:28102": 1200,
+          "http://100.67.12.66:28102": 1200
+        },
+        "indexOnly": true
+      },
+      "completedAt": "2026-11-02T03:15:25.797Z"
+    },
+    {
+      "id": "g2-20261102m-t1-agent-n2000-r5",
+      "total": 2000,
+      "concurrency": 16,
+      "queries": false,
+      "state": "complete",
+      "scope": "real-three-host-agent-pipeline",
+      "startedAt": "2026-11-02T03:16:35.303Z",
+      "requestBudgets": {
+        "registrationTimeoutMs": 1500000,
+        "queryTimeoutMs": 1500000,
+        "readTimeoutMs": 1500000,
+        "batchTimeoutMs": 1500000,
+        "readinessTimeoutMs": 1500000,
+        "observerConcurrency": 8
+      },
+      "batchTimeoutMs": 1500000,
+      "watchdogScope": "submission-start-to-observer-processing; not an OAN SLA; in-flight HTTP may finish after watchdog",
+      "signer": "sdk",
+      "verification": "per-resource-per-discovery-pinned-root",
+      "observerConcurrency": 8,
+      "preparationMs": 223452.2245,
+      "registrationWallMs": 356051.58770000003,
+      "allVerifiedWallMs": 571673.5419000001,
+      "endToEndPerSecond": 3.4985001988247513,
+      "completeness": {
+        "expectedPerDiscovery": 2000,
+        "indexedCounts": {
+          "http://100.69.96.59:28102": 2000,
+          "http://100.67.12.66:28102": 2000
+        },
+        "indexOnly": true
+      },
+      "completedAt": "2026-11-02T03:29:51.536Z"
+    },
+    {
+      "id": "g2-20261102m-t1-agent-n300-r1",
+      "total": 300,
+      "concurrency": 16,
+      "queries": false,
+      "state": "complete",
+      "scope": "real-three-host-agent-pipeline",
+      "startedAt": "2026-11-02T03:31:01.331Z",
+      "requestBudgets": {
+        "registrationTimeoutMs": 1500000,
+        "queryTimeoutMs": 1500000,
+        "readTimeoutMs": 1500000,
+        "batchTimeoutMs": 1500000,
+        "readinessTimeoutMs": 1500000,
+        "observerConcurrency": 8
+      },
+      "batchTimeoutMs": 1500000,
+      "watchdogScope": "submission-start-to-observer-processing; not an OAN SLA; in-flight HTTP may finish after watchdog",
+      "signer": "sdk",
+      "verification": "per-resource-per-discovery-pinned-root",
+      "observerConcurrency": 8,
+      "preparationMs": 32173.351599999936,
+      "registrationWallMs": 47845.44980000006,
+      "allVerifiedWallMs": 104716.10270000016,
+      "endToEndPerSecond": 2.8648888973596183,
+      "completeness": {
+        "expectedPerDiscovery": 300,
+        "indexedCounts": {
+          "http://100.69.96.59:28102": 300,
+          "http://100.67.12.66:28102": 300
+        },
+        "indexOnly": true
+      },
+      "completedAt": "2026-11-02T03:33:19.800Z"
+    },
+    {
+      "id": "g2-20261102m-t1-agent-n30-r1",
+      "total": 30,
+      "concurrency": 16,
+      "queries": false,
+      "state": "complete",
+      "scope": "real-three-host-agent-pipeline",
+      "startedAt": "2026-11-02T03:34:29.412Z",
+      "requestBudgets": {
+        "registrationTimeoutMs": 1500000,
+        "queryTimeoutMs": 1500000,
+        "readTimeoutMs": 1500000,
+        "batchTimeoutMs": 1500000,
+        "readinessTimeoutMs": 1500000,
+        "observerConcurrency": 8
+      },
+      "batchTimeoutMs": 1500000,
+      "watchdogScope": "submission-start-to-observer-processing; not an OAN SLA; in-flight HTTP may finish after watchdog",
+      "signer": "sdk",
+      "verification": "per-resource-per-discovery-pinned-root",
+      "observerConcurrency": 8,
+      "preparationMs": 3622.349399999948,
+      "registrationWallMs": 10624.719199999934,
+      "allVerifiedWallMs": 17945.26649999991,
+      "endToEndPerSecond": 1.6717500406026375,
+      "completeness": {
+        "expectedPerDiscovery": 30,
+        "indexedCounts": {
+          "http://100.69.96.59:28102": 30,
+          "http://100.67.12.66:28102": 30
+        },
+        "indexOnly": true
+      },
+      "completedAt": "2026-11-02T03:34:52.036Z"
+    },
+    {
+      "id": "g2-20261102m-t1-agent-n300-r5",
+      "total": 300,
+      "concurrency": 16,
+      "queries": false,
+      "state": "complete",
+      "scope": "real-three-host-agent-pipeline",
+      "startedAt": "2026-11-02T03:36:01.306Z",
+      "requestBudgets": {
+        "registrationTimeoutMs": 1500000,
+        "queryTimeoutMs": 1500000,
+        "readTimeoutMs": 1500000,
+        "batchTimeoutMs": 1500000,
+        "readinessTimeoutMs": 1500000,
+        "observerConcurrency": 8
+      },
+      "batchTimeoutMs": 1500000,
+      "watchdogScope": "submission-start-to-observer-processing; not an OAN SLA; in-flight HTTP may finish after watchdog",
+      "signer": "sdk",
+      "verification": "per-resource-per-discovery-pinned-root",
+      "observerConcurrency": 8,
+      "preparationMs": 34247.47400000016,
+      "registrationWallMs": 43961.06309999991,
+      "allVerifiedWallMs": 84763.8543,
+      "endToEndPerSecond": 3.539244439478019,
+      "completeness": {
+        "expectedPerDiscovery": 300,
+        "indexedCounts": {
+          "http://100.69.96.59:28102": 300,
+          "http://100.67.12.66:28102": 300
+        },
+        "indexOnly": true
+      },
+      "completedAt": "2026-11-02T03:38:01.266Z"
+    },
+    {
+      "id": "g2-20261102m-t1-agent-n1200-r3",
+      "total": 1200,
+      "concurrency": 16,
+      "queries": false,
+      "state": "complete",
+      "scope": "real-three-host-agent-pipeline",
+      "startedAt": "2026-11-02T03:39:11.966Z",
+      "requestBudgets": {
+        "registrationTimeoutMs": 1500000,
+        "queryTimeoutMs": 1500000,
+        "readTimeoutMs": 1500000,
+        "batchTimeoutMs": 1500000,
+        "readinessTimeoutMs": 1500000,
+        "observerConcurrency": 8
+      },
+      "batchTimeoutMs": 1500000,
+      "watchdogScope": "submission-start-to-observer-processing; not an OAN SLA; in-flight HTTP may finish after watchdog",
+      "signer": "sdk",
+      "verification": "per-resource-per-discovery-pinned-root",
+      "observerConcurrency": 8,
+      "preparationMs": 133214.85160000017,
+      "registrationWallMs": 212777.81569999992,
+      "allVerifiedWallMs": 309633.007,
+      "endToEndPerSecond": 3.8755558124331366,
+      "completeness": {
+        "expectedPerDiscovery": 1200,
+        "indexedCounts": {
+          "http://100.69.96.59:28102": 1200,
+          "http://100.67.12.66:28102": 1200
+        },
+        "indexOnly": true
+      },
+      "completedAt": "2026-11-02T03:46:35.701Z"
+    },
+    {
+      "id": "g2-20261102m-t1-agent-n1200-r2",
+      "total": 1200,
+      "concurrency": 16,
+      "queries": false,
+      "state": "complete",
+      "scope": "real-three-host-agent-pipeline",
+      "startedAt": "2026-11-02T03:47:44.867Z",
+      "requestBudgets": {
+        "registrationTimeoutMs": 1500000,
+        "queryTimeoutMs": 1500000,
+        "readTimeoutMs": 1500000,
+        "batchTimeoutMs": 1500000,
+        "readinessTimeoutMs": 1500000,
+        "observerConcurrency": 8
+      },
+      "batchTimeoutMs": 1500000,
+      "watchdogScope": "submission-start-to-observer-processing; not an OAN SLA; in-flight HTTP may finish after watchdog",
+      "signer": "sdk",
+      "verification": "per-resource-per-discovery-pinned-root",
+      "observerConcurrency": 8,
+      "preparationMs": 135235.54059999995,
+      "registrationWallMs": 181427.92629999993,
+      "allVerifiedWallMs": 403657.51560000004,
+      "endToEndPerSecond": 2.972817186907345,
+      "completeness": {
+        "expectedPerDiscovery": 1200,
+        "indexedCounts": {
+          "http://100.69.96.59:28102": 1200,
+          "http://100.67.12.66:28102": 1200
+        },
+        "indexOnly": true
+      },
+      "completedAt": "2026-11-02T03:56:44.902Z"
+    },
+    {
+      "id": "g2-20261102n-t1-agent-n1200-r4",
+      "total": 1200,
+      "concurrency": 16,
+      "queries": false,
+      "state": "complete",
+      "scope": "real-three-host-agent-pipeline",
+      "startedAt": "2026-11-02T04:04:33.480Z",
+      "requestBudgets": {
+        "registrationTimeoutMs": 1500000,
+        "queryTimeoutMs": 1500000,
+        "readTimeoutMs": 1500000,
+        "batchTimeoutMs": 1500000,
+        "readinessTimeoutMs": 1500000,
+        "observerConcurrency": 8
+      },
+      "batchTimeoutMs": 1500000,
+      "watchdogScope": "submission-start-to-observer-processing; not an OAN SLA; in-flight HTTP may finish after watchdog",
+      "signer": "sdk",
+      "verification": "per-resource-per-discovery-pinned-root",
+      "observerConcurrency": 8,
+      "preparationMs": 134599.41470000002,
+      "registrationWallMs": 192620.8042,
+      "allVerifiedWallMs": 405896.65,
+      "endToEndPerSecond": 2.9564176003916267,
+      "completeness": {
+        "expectedPerDiscovery": 1200,
+        "indexedCounts": {
+          "http://100.69.96.59:28102": 1200,
+          "http://100.67.12.66:28102": 1200
+        },
+        "indexOnly": true
+      },
+      "completedAt": "2026-11-02T04:13:35.227Z"
+    },
+    {
+      "id": "g2-20261102n-t1-agent-n30-r2",
+      "total": 30,
+      "concurrency": 16,
+      "queries": false,
+      "state": "complete",
+      "scope": "real-three-host-agent-pipeline",
+      "startedAt": "2026-11-02T04:14:48.553Z",
+      "requestBudgets": {
+        "registrationTimeoutMs": 1500000,
+        "queryTimeoutMs": 1500000,
+        "readTimeoutMs": 1500000,
+        "batchTimeoutMs": 1500000,
+        "readinessTimeoutMs": 1500000,
+        "observerConcurrency": 8
+      },
+      "batchTimeoutMs": 1500000,
+      "watchdogScope": "submission-start-to-observer-processing; not an OAN SLA; in-flight HTTP may finish after watchdog",
+      "signer": "sdk",
+      "verification": "per-resource-per-discovery-pinned-root",
+      "observerConcurrency": 8,
+      "preparationMs": 3307.3824000000022,
+      "registrationWallMs": 6479.233200000017,
+      "allVerifiedWallMs": 19024.97100000002,
+      "endToEndPerSecond": 1.5768749397830868,
+      "completeness": {
+        "expectedPerDiscovery": 30,
+        "indexedCounts": {
+          "http://100.69.96.59:28102": 30,
+          "http://100.67.12.66:28102": 30
+        },
+        "indexOnly": true
+      },
+      "completedAt": "2026-11-02T04:15:11.875Z"
+    },
+    {
+      "id": "g2-20261102n-t1-agent-n300-r2",
+      "total": 300,
+      "concurrency": 16,
+      "queries": false,
+      "state": "complete",
+      "scope": "real-three-host-agent-pipeline",
+      "startedAt": "2026-11-02T04:16:29.610Z",
+      "requestBudgets": {
+        "registrationTimeoutMs": 1500000,
+        "queryTimeoutMs": 1500000,
+        "readTimeoutMs": 1500000,
+        "batchTimeoutMs": 1500000,
+        "readinessTimeoutMs": 1500000,
+        "observerConcurrency": 8
+      },
+      "batchTimeoutMs": 1500000,
+      "watchdogScope": "submission-start-to-observer-processing; not an OAN SLA; in-flight HTTP may finish after watchdog",
+      "signer": "sdk",
+      "verification": "per-resource-per-discovery-pinned-root",
+      "observerConcurrency": 8,
+      "preparationMs": 32586.414499999955,
+      "registrationWallMs": 56234.9388,
+      "allVerifiedWallMs": 106568.15839999996,
+      "endToEndPerSecond": 2.8150997868796814,
+      "completeness": {
+        "expectedPerDiscovery": 300,
+        "indexedCounts": {
+          "http://100.69.96.59:28102": 300,
+          "http://100.67.12.66:28102": 300
+        },
+        "indexOnly": true
+      },
+      "completedAt": "2026-11-02T04:18:50.099Z"
+    },
+    {
+      "id": "g2-20261102n-t1-agent-n2000-r4",
+      "total": 2000,
+      "concurrency": 16,
+      "queries": false,
+      "state": "complete",
+      "scope": "real-three-host-agent-pipeline",
+      "startedAt": "2026-11-02T04:20:10.461Z",
+      "requestBudgets": {
+        "registrationTimeoutMs": 1500000,
+        "queryTimeoutMs": 1500000,
+        "readTimeoutMs": 1500000,
+        "batchTimeoutMs": 1500000,
+        "readinessTimeoutMs": 1500000,
+        "observerConcurrency": 8
+      },
+      "batchTimeoutMs": 1500000,
+      "watchdogScope": "submission-start-to-observer-processing; not an OAN SLA; in-flight HTTP may finish after watchdog",
+      "signer": "sdk",
+      "verification": "per-resource-per-discovery-pinned-root",
+      "observerConcurrency": 8,
+      "preparationMs": 219836.03230000008,
+      "registrationWallMs": 311423.6177999999,
+      "allVerifiedWallMs": 1116449.0206,
+      "endToEndPerSecond": 1.7913939312026657,
+      "completeness": {
+        "expectedPerDiscovery": 2000,
+        "indexedCounts": {
+          "http://100.69.96.59:28102": 2000,
+          "http://100.67.12.66:28102": 2000
+        },
+        "indexOnly": true
+      },
+      "completedAt": "2026-11-02T04:42:28.738Z"
+    },
+    {
+      "id": "g2-20261102n-t1-agent-n30-r3",
+      "total": 30,
+      "concurrency": 16,
+      "queries": false,
+      "state": "complete",
+      "scope": "real-three-host-agent-pipeline",
+      "startedAt": "2026-11-02T04:43:58.923Z",
+      "requestBudgets": {
+        "registrationTimeoutMs": 1500000,
+        "queryTimeoutMs": 1500000,
+        "readTimeoutMs": 1500000,
+        "batchTimeoutMs": 1500000,
+        "readinessTimeoutMs": 1500000,
+        "observerConcurrency": 8
+      },
+      "batchTimeoutMs": 1500000,
+      "watchdogScope": "submission-start-to-observer-processing; not an OAN SLA; in-flight HTTP may finish after watchdog",
+      "signer": "sdk",
+      "verification": "per-resource-per-discovery-pinned-root",
+      "observerConcurrency": 8,
+      "preparationMs": 3285.6444000001065,
+      "registrationWallMs": 6712.829000000376,
+      "allVerifiedWallMs": 22402.01780000003,
+      "endToEndPerSecond": 1.339165081816869,
+      "completeness": {
+        "expectedPerDiscovery": 30,
+        "indexedCounts": {
+          "http://100.69.96.59:28102": 30,
+          "http://100.67.12.66:28102": 30
+        },
+        "indexOnly": true
+      },
+      "completedAt": "2026-11-02T04:44:26.664Z"
+    }
+  ],
+  "state": "complete"
+}
